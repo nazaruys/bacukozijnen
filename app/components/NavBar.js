@@ -16,15 +16,15 @@ const Navbar = ({ currentPage }) => {
   }, []);
 
   // Navigation items now have a name and a slug.
-  const navigationItemsLeft = [
+  const navigationItems = [
     { name: 'Kozijnen', slug: 'kozijnen' },
     { name: 'Buitendeuren', slug: 'buitendeuren' },
-    { name: 'Rolluiken', slug: 'rolluiken' }
-  ];
-  const navigationItemsRight = [
+    { name: 'Rolluiken', slug: 'rolluiken' },
     { name: 'Over ons', slug: 'over-ons' },
     { name: 'Contact', slug: 'contact' }
   ];
+  const navigationItemsLeft = navigationItems.slice(0, 3);
+  const navigationItemsRight = navigationItems.slice(-2);
 
   return (
     <header
@@ -44,13 +44,13 @@ const Navbar = ({ currentPage }) => {
         >
             <img
               src="/logos/google.png"
-              alt="Instagram Logo"
-              className="w-3 md:w-6 h-auto md:mr-3"
+              alt="Google Logo"
+              className="w-4 md:w-6 h-auto mr-3"
             />
             <span>Beoordeling van 5/5</span>
         </a>
         <div className="flex items-center space-x-24">
-            <div className="flex items-center space-x-12">
+            <div className="hidden sm:flex items-center space-x-12">
                 <div className="flex flex-row items-center text-[12px]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 mr-2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -83,7 +83,7 @@ const Navbar = ({ currentPage }) => {
                     <img
                     src="/logos/instagram.webp"
                     alt="Instagram Logo"
-                    className="w-3 md:w-6 h-auto"
+                    className="w-4 md:w-6 h-auto"
                     />
                 </a>
                 <a
@@ -187,7 +187,7 @@ const Navbar = ({ currentPage }) => {
               className="focus:outline-none"
             >
               <svg
-                className="w-6 h-6"
+                className="w-6 h-6 text-base"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -215,15 +215,15 @@ const Navbar = ({ currentPage }) => {
 
         {/* Mobile Navigation */}
         <nav
-          className="md:hidden bg-secondary overflow-hidden transition-all duration-300 rounded-lg"
+          className="md:hidden bg-secondaryBackground overflow-auto transition-all duration-300 ease-in-out"
           style={{ maxHeight: mobileMenuOpen ? '500px' : '0px' }}
         >
-          <ul className="flex flex-col text-center text-sm text-gray-50">
-            {navigationItemsLeft.map((item) => (
-              <li key={item.slug} className="border-t border-gray-700">
+          <ul className="flex flex-col text-center text-sm text-base border-b border-secondary">
+            {navigationItems.map((item) => (
+              <li key={item.slug} className="border-t border-secondary">
                 <a
                   href={`/${item.slug}`}
-                  className={`block py-3 transition-colors hover:bg-gray-700 ${currentPage === item.slug ? 'bg-gray-600' : ''}`}
+                  className={`block py-3 transition-colors hover:bg-background ${currentPage === item.slug ? 'bg-gray-600' : ''}`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}
