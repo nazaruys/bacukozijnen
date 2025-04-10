@@ -35,7 +35,7 @@ const Navbar = ({ currentPage }) => {
       {/* Top Bar */}
       <div
         className={`bg-base text-sm h-10 flex justify-between items-center md:px-36 px-3 transition-opacity duration-300 ${
-          hideTopBar ? 'opacity-0 pointer-events-none' : 'opacity-100'
+          hideTopBar ? 'pointer-events-none' : 'opacity-100'
         }`}
       >
         <a

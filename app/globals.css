@@ -9,3 +9,7 @@
   --color-background: #FFFFFF;
   --color-secondaryBackground: #FAF9F2;
 }
+
+svg {
+  display: inline-block;
+}
