@@ -172,7 +172,7 @@ const Navbar = ({ currentPage }) => {
                     {/* Button */}
                     <a
                         href="#offerte"
-                        className="bg-primary text-sm text-white px-6 py-[10px] rounded-4xl transition-all hover:bg-primary/80"
+                        className="bg-primary text-sm text-white px-6 py-[10px] rounded-4xl transition-all transform duration-500 hover:bg-primaryDark"
                     >
                     Offerte aanvragen
                     </a>

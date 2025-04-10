@@ -1,6 +1,7 @@
 "use client";
 
 import Navbar from "./components/NavBar";
+import ReviewsSection from "./components/ReviewsSection";
 import StepsSection from "./components/StepsSection";
 
 export default function Home() {
@@ -57,7 +58,7 @@ export default function Home() {
           </div>
           <a
             href="#"
-            className="flex justify-center items-center bg-primary text-lg text-white w-full md:py-3 font-medium rounded-4xl transition-all hover:bg-primary/80 mt-auto"
+            className="flex justify-center items-center bg-primary text-lg text-white w-full md:py-3 font-medium rounded-4xl  transition-all transform duration-500 hover:bg-primaryDark mt-auto"
           >
             Begin met samenstellen
           </a>
@@ -362,6 +363,46 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Reviews */}
+      <ReviewsSection />
+      {/* CTA */}
+      <section className="md:mx-[250px] flex items-center justify-between py-24">
+          {/* Left Column */}
+          <div className="flex flex-col justify-between w-[500px]">
+            <div>
+              <h1 className="font-semibold text-3xl mb-4">Ontwerp jouw perfecte kozijnen</h1>
+              <p className="text-secondary text-xl">
+                Stel moeiteloos jouw ideale kunststof kozijnen samen met onze configurator! Kies afmetingen, kleur, stijl en extra opties, en zie direct de prijs. Hulp nodig? Ons team staat altijd klaar.</p>
+              <p className="text-secondary text-xl mt-4">Begin nu en geef je huis de perfecte uitstraling!</p>
+            </div>
+            <a
+              href="#"
+              className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-12 w-[225px]"
+            >
+              Start je berekening
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="18" viewBox="0 0 11 18" fill="none" className="ml-1 transition-transform duration-500 transform group-hover:translate-x-[3px]">
+                <g clipPath="url(#clip0_81_15)">
+                  <path d="M0.169159 15.5025L6.65749 9L0.169159 2.4975L2.16666 0.5L10.6667 9L2.16666 17.5L0.169159 15.5025Z" fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_81_15">
+                    <rect width="11" height="18" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+
+          {/* Right Image */}
+          <img
+            src="/images/huis.png"
+            alt="Huis afbeelding"
+            className="w-36 md:w-[500px] h-auto"
+          />
+        </section>
+
+
+
     </div>
   );
 };

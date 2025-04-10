@@ -4,6 +4,7 @@
 @theme {
   --font-outfit: "Outfit", sans-serif;
   --color-primary: #ED1B24;
+  --color-primaryDark: #D51820;
   --color-secondary: #2D2D2D;
   --color-base: #000000;
   --color-background: #FFFFFF;
@@ -12,4 +13,12 @@
 
 svg {
   display: inline-block;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 11 */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, Edge */
 }
