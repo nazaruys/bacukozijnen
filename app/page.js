@@ -1,13 +1,15 @@
 "use client";
 
+import Footer from "./components/Footer";
 import Navbar from "./components/NavBar";
+import OfferteForm from "./components/OfferteForm";
 import ReviewsSection from "./components/ReviewsSection";
 import StepsSection from "./components/StepsSection";
 
 export default function Home() {
   return (
     <div className="bg-background font-outfit">
-      <Navbar currentPage={"kozijnen"} />
+      <Navbar currentPage={""} />
       {/* Main */}
       <section
         className="flex flex-row justify-between h-[600px] md:px-36 md:py-20"
@@ -366,7 +368,7 @@ export default function Home() {
       {/* Reviews */}
       <ReviewsSection />
       {/* CTA */}
-      <section className="md:mx-[250px] flex items-center justify-between py-24">
+      <section className="md:px-[250px] flex items-center justify-between py-24">
           {/* Left Column */}
           <div className="flex flex-col justify-between w-[500px]">
             <div>
@@ -399,10 +401,11 @@ export default function Home() {
             alt="Huis afbeelding"
             className="w-36 md:w-[500px] h-auto"
           />
-        </section>
-
-
-
+      </section>
+      {/* Form */}
+      <OfferteForm />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
