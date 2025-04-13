@@ -128,7 +128,7 @@ export default function Kozijnen() {
 					<h2
 						className="text-3xl font-semibold text-black"
 					>
-						Kozijnen op maat
+						Je kozijnen op maat
 					</h2>
 					<p
 						className="mt-3 text-secondary text-xl"

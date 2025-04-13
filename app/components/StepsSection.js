@@ -1,6 +1,6 @@
 import React from 'react';
 
-function StepsSection({product}) {
+function StepsSection({product="Kozijnen"}) {
     return (
         <div className="flex flex-row justify-between items-center md:px-36 h-[220px] relative">
             <div className="absolute top-1/2 left-0 w-full" style={{ borderTop: "0.5px solid #717171"}}></div>
