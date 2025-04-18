@@ -35,7 +35,7 @@ export default function OverOns() {
 						</p>
 						{/* Button */}
 						<a
-							href="#"
+							href="/configurator"
 							className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-16 w-[225px]"
 							>
 							Start je berekening
@@ -126,7 +126,7 @@ export default function OverOns() {
 						</p>
 						{/* Button */}
 						<a
-							href="#"
+							href="/contact"
 							className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-12 w-[225px]"
 							>
 							Neem contact op

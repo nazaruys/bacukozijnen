@@ -1,9 +1,13 @@
 "use client";
 
 import { Formik, Form, ErrorMessage, Field, useFormik, useFormikContext } from "formik";
+import { useState } from "react";
+import { Bounce, toast } from "react-toastify";
 import * as Yup from "yup";
 
 function OfferteForm() {
+	const [isLoading, setIsLoading] = useState(false);
+
 	// Formik setup
 	const initialValues = {
 		voornaam: "",
@@ -43,15 +47,77 @@ function OfferteForm() {
 		vragen: Yup.string()
 			.max(500, "Maximaal 500 tekens"),
 	});
+	// OnSubmit: send a request to API for sending emails to the customer and the owner
 	const handleSubmit = async (values, { resetForm }) => {
-    console.log("Form values:", values);
-		alert("Form values: " + JSON.stringify(values));
+		if (isLoading) return;
+		setIsLoading(true);
+		// Debug
+    	console.log("Form values:", values);
+		try {
+			console.log("HandleSubmit() called...");
 
-		resetForm();
+			// Send a request to API
+			const response = await fetch('/api/send-offerte-customer-and-owner', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify({
+						voornaam: values.voornaam,
+						achternaam: values.achternaam,
+						adres: values.adres,
+						plaats: values.plaats,
+						telefoonnummer: values.telefoonnummer,
+						email: values.email,
+						vragen: values.vragen
+					}),
+			});
+			//  Check the response
+			if (!response.ok) {
+					// Debug
+					console.log(await response.json())
+					// Show error message
+					toast.error('Er is een fout opgetreden. Probeer het opnieuw. Lukt het niet? Neem dan contact met ons op via info@bacukozijnen.nl.', {
+						position: "top-right",
+						autoClose: 10000,
+						hideProgressBar: false,
+						closeOnClick: false,
+						pauseOnHover: true,
+						draggable: true,
+						progress: undefined,
+						theme: "light",
+						transition: Bounce,
+					});
+					// Debug
+					throw new Error(`Error: ${response.statusText}`);
+			}
+			// Show success message
+			toast.success('Uw gegevens zijn verstuurd!', {
+				position: "top-right",
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: false,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+				theme: "light",
+				transition: Bounce,
+			});
+			// Reset the form
+			resetForm();
+			setIsLoading(false);
+			// Debug
+			console.log(await response.json())
+	} catch (error) {
+			// Debug
+			console.error('Failed to send email:', error);
+	}
+		
   };
 
 	return (
 		<section
+			id="offerte"
 			className="bg-secondaryBackground md:px-[250px] flex flex-row py-16"
 		>
 			{/* Modern House Image */}
@@ -227,7 +293,10 @@ function OfferteForm() {
 						{/* Submit Button */}
 						<button
 							type="submit"
-							className="cursor-pointer mt-auto w-[135px] group flex justify-center items-center bg-primary hover:bg-primaryDark text-[16px] text-white py-[9px] font-medium rounded-4xl transition-all transform duration-500"
+							disabled={isLoading}
+							className={`cursor-pointer mt-auto w-[135px] group flex justify-center items-center bg-primary hover:bg-primaryDark text-[16px] text-white py-[9px] font-medium rounded-4xl transition-all transform duration-500 ${
+								isLoading ? 'opacity-70' : ''
+							}`}
 						>
 							Verstuur
 						</button>

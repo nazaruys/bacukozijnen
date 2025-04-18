@@ -36,7 +36,7 @@ export default function Rolluiken() {
 					</p>
 					{/* Button */}
 					<a
-						href="#"
+						href="/configurator"
 						className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-16 w-[225px]"
 						>
 						Start je berekening

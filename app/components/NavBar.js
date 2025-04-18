@@ -41,6 +41,7 @@ const Navbar = ({ currentPage }) => {
         <a
             className="flex flex-row items-center"
             href="https://maps.app.goo.gl/j2vAT6gt1CsqoBrA7"
+            target='_blank'
         >
             <img
               src="/logos/google.png"

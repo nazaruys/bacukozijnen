@@ -1,5 +1,6 @@
 "use client";
 
+import { ToastContainer } from "react-toastify";
 import Footer from "./components/Footer";
 import Navbar from "./components/NavBar";
 import OfferteForm from "./components/OfferteForm";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <div className="bg-background font-outfit">
       <Navbar currentPage={""} />
+      <ToastContainer />
       {/* Main */}
       <section
         className="flex flex-row justify-between h-[600px] md:px-36 md:py-20"
@@ -32,8 +34,8 @@ export default function Home() {
           <div className='space-y-3 md:mt-5'>
             {/* Pro 1 */}
             <div className="flex flex-row items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor" class="size-6 text-[#41D872]">
-                <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.2" stroke="currentColor" className="size-6 text-[#41D872]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
 
               <p className="text-white text-[16px] ml-3">Kozijnen inclusief montage</p>
@@ -41,8 +43,8 @@ export default function Home() {
             </div>
             {/* Pro 2 */}
             <div className="flex flex-row items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor" class="size-6 text-[#41D872]">
-                <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.2" stroke="currentColor" className="size-6 text-[#41D872]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
 
               <p className="text-white text-[16px] ml-3">Duurzaam en makkelijk in onderhoud</p>
@@ -50,8 +52,8 @@ export default function Home() {
             </div>
             {/* Pro 3 */}
             <div className="flex flex-row items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor" class="size-6 text-[#41D872]">
-                <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.2" stroke="currentColor" className="size-6 text-[#41D872]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
               </svg>
 
               <p className="text-white text-[16px] ml-3">Offerte op maat, zelf samengesteld</p>
@@ -59,7 +61,7 @@ export default function Home() {
             </div>
           </div>
           <a
-            href="#"
+            href="/configurator"
             className="flex justify-center items-center bg-primary text-lg text-white w-full md:py-3 font-medium rounded-4xl  transition-all transform duration-500 hover:bg-primaryDark mt-auto"
           >
             Begin met samenstellen
@@ -71,7 +73,7 @@ export default function Home() {
         >
           <a
             className="flex flex-row justify-center items-center"
-            href="#"
+            href="https://maps.app.goo.gl/j2vAT6gt1CsqoBrA7"
             target="_blank"
           >
             <span className="text-lg text-white">Klanten geven ons een 5/5</span>
@@ -121,7 +123,7 @@ export default function Home() {
           {/* Product 1 */}
           <a
             className="w-[375px] h-[625px] shadow-lg flex flex-col overflow-hidden group"
-            href="#"
+            href="/kozijnen"
           >
             <div className="flex overflow-hidden">
               <img
@@ -146,24 +148,24 @@ export default function Home() {
                 <div
                   className="flex flex-row items-center gap-3"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
                   <span className="text-[15px]">Bespaar op je energierekening</span>
                 </div>
                 <div
                   className="flex flex-row items-center gap-3"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
                   <span className="text-[15px]">Verminder geluidsoverlast</span>
                 </div>
                 <div
                   className="flex flex-row items-center gap-3"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
                   <span className="text-[15px]">Verhoog je woningwaarde</span>
                 </div>
@@ -173,81 +175,17 @@ export default function Home() {
                 className="flex flex-row items-center mt-auto"
               >
                 <span className="mr-1 text-lg">Stel je kozijnen samen</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-5 transition-transform duration-500 transform group-hover:translate-x-1">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="size-5 transition-transform duration-500 transform group-hover:translate-x-1">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>
 
               </div>
             </div>
           </a>
-
           {/* Product 2 */}
           <a
             className="w-[375px] h-[625px] shadow-lg flex flex-col overflow-hidden group"
-            href="#"
-          >
-            <div className="flex overflow-hidden">
-              <img
-                src="/images/rolluiken.png"
-                alt="Rolluiken afbeelding"
-                className="w-full h-auto transition-transform duration-500 transform group-hover:scale-103"
-              />
-            </div>
-            <div
-              className="p-7 flex flex-col flex-grow"
-            >
-              <span className="font-medium text-2xl">
-                Rolluiken
-              </span>
-              <p className="text-secondary text-[17px] mt-2">
-                Meer privacy, zonbescherming en veiligheid – kies voor rolluiken.
-              </p>
-              {/* List of pros */}
-              <div
-                className="py-7 gap-y-2 flex flex-col"
-              >
-                <div
-                  className="flex flex-row items-center gap-3"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                  </svg>
-                  <span className="text-[15px]">Verhoog je privacy</span>
-                </div>
-                <div
-                  className="flex flex-row items-center gap-3"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                  </svg>
-                  <span className="text-[15px]">Geniet van geluidsisolatie</span>
-                </div>
-                <div
-                  className="flex flex-row items-center gap-3"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                  </svg>
-                  <span className="text-[15px]">Verklein de kans op inbraken</span>
-                </div>
-              </div>
-              {/* CTA */}
-              <div
-                className="flex flex-row items-center mt-auto"
-              >
-                <span className="mr-1 text-lg">Stel je rolluiken samen</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-5 transition-transform duration-500 transform group-hover:translate-x-1">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                </svg>
-
-              </div>
-            </div>
-          </a>
-
-          {/* Product 3 */}
-          <a
-            className="w-[375px] h-[625px] shadow-lg flex flex-col overflow-hidden group"
-            href="#"
+            href="/buitendeuren"
           >
             <div className="flex overflow-hidden">
               <img
@@ -272,24 +210,24 @@ export default function Home() {
                 <div
                   className="flex flex-row items-center gap-3"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
                   <span className="text-[15px]">Verbeter de uitstraling</span>
                 </div>
                 <div
                   className="flex flex-row items-center gap-3"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
                   <span className="text-[15px]">Verhoog de energie-efficiëntie</span>
                 </div>
                 <div
                   className="flex flex-row items-center gap-3"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-5 text-[#41D872]">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
                   <span className="text-[15px]">Bescherm je huis tegen inbraak</span>
                 </div>
@@ -299,13 +237,77 @@ export default function Home() {
                 className="flex flex-row items-center mt-auto"
               >
                 <span className="mr-1 text-lg">Stel je buitendeur samen</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-5 transition-transform duration-500 transform group-hover:translate-x-1">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="size-5 transition-transform duration-500 transform group-hover:translate-x-1">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>
 
               </div>
             </div>
           </a>
+          {/* Product 3 */}
+          <a
+            className="w-[375px] h-[625px] shadow-lg flex flex-col overflow-hidden group"
+            href="/rolluiken"
+          >
+            <div className="flex overflow-hidden">
+              <img
+                src="/images/rolluiken.png"
+                alt="Rolluiken afbeelding"
+                className="w-full h-auto transition-transform duration-500 transform group-hover:scale-103"
+              />
+            </div>
+            <div
+              className="p-7 flex flex-col flex-grow"
+            >
+              <span className="font-medium text-2xl">
+                Rolluiken
+              </span>
+              <p className="text-secondary text-[17px] mt-2">
+                Meer privacy, zonbescherming en veiligheid – kies voor rolluiken.
+              </p>
+              {/* List of pros */}
+              <div
+                className="py-7 gap-y-2 flex flex-col"
+              >
+                <div
+                  className="flex flex-row items-center gap-3"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  </svg>
+                  <span className="text-[15px]">Verhoog je privacy</span>
+                </div>
+                <div
+                  className="flex flex-row items-center gap-3"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  </svg>
+                  <span className="text-[15px]">Geniet van geluidsisolatie</span>
+                </div>
+                <div
+                  className="flex flex-row items-center gap-3"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5 text-[#41D872]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  </svg>
+                  <span className="text-[15px]">Verklein de kans op inbraken</span>
+                </div>
+              </div>
+              {/* CTA */}
+              <div
+                className="flex flex-row items-center mt-auto"
+              >
+                <span className="mr-1 text-lg">Stel je rolluiken samen</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="size-5 transition-transform duration-500 transform group-hover:translate-x-1">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+
+              </div>
+            </div>
+          </a>
+
+          
         </div>
       </section>
       {/* Why choose us? */}
@@ -322,7 +324,7 @@ export default function Home() {
             className="flex flex-col w-[350px] bg-secondaryBackground p-5"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 35 35" fill="none" className="block mb-6">
-            <g clip-path="url(#clip0_227_351)">
+            <g clipPath="url(#clip0_227_351)">
             <path d="M23.375 30.2292C18.4596 30.2292 14.21 27.4483 12.095 23.375H23.375V19.4583H10.8025C10.7046 18.8121 10.6458 18.1658 10.6458 17.5C10.6458 16.8342 10.7046 16.1879 10.8025 15.5417H23.375V11.625H12.095C14.21 7.55167 18.4792 4.77083 23.375 4.77083C26.5279 4.77083 29.4263 5.92625 31.6588 7.84542L35.125 4.37917C32.0112 1.57875 27.8792 -0.125 23.375 -0.125C15.6983 -0.125 9.19667 4.79042 6.76833 11.625H-0.125V15.5417H5.8675C5.78917 16.1879 5.75 16.8342 5.75 17.5C5.75 18.1658 5.78917 18.8121 5.8675 19.4583H-0.125V23.375H6.76833C9.19667 30.2096 15.6983 35.125 23.375 35.125C27.8988 35.125 32.0112 33.4213 35.125 30.6208L31.6392 27.1546C29.4262 29.0738 26.5475 30.2292 23.375 30.2292Z" fill="#ED1B24"/>
             </g>
             <defs>
@@ -340,7 +342,7 @@ export default function Home() {
             className="flex flex-col w-[350px] bg-secondaryBackground p-5"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 43 43" fill="none" className="block mb-6">
-            <g clip-path="url(#clip0_227_354)">
+            <g clipPath="url(#clip0_227_354)">
             <path d="M40.625 8.75H36.375V27.875H8.75V32.125C8.75 33.2938 9.70625 34.25 10.875 34.25H34.25L42.75 42.75V10.875C42.75 9.70625 41.7938 8.75 40.625 8.75ZM32.125 21.5V2.375C32.125 1.20625 31.1688 0.25 30 0.25H2.375C1.20625 0.25 0.25 1.20625 0.25 2.375V32.125L8.75 23.625H30C31.1688 23.625 32.125 22.6688 32.125 21.5Z" fill="#ED1B24"/>
             </g>
             <defs>
@@ -378,7 +380,7 @@ export default function Home() {
               <p className="text-secondary text-xl mt-4">Begin nu en geef je huis de perfecte uitstraling!</p>
             </div>
             <a
-              href="#"
+              href="/congigurator"
               className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-12 w-[225px]"
             >
               Start je berekening

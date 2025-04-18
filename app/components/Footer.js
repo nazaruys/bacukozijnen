@@ -63,7 +63,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
-								href="mailto:info@bacukozijnen.nl"
+								href="https://api.whatsapp.com/send/?phone=31614438309"
 								className="underline"
 								target='_blank'
 							>
@@ -72,7 +72,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
-								href="mailto:info@bacukozijnen.nl"
+								href="https://www.instagram.com/bacukozijnen/"
 								className="underline"
 								target='_blank'
 							>
@@ -160,7 +160,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
-								href="#"
+								href="https://maps.app.goo.gl/j2vAT6gt1CsqoBrA7"
 								className="underline"
 								target='_blank'
 							>
