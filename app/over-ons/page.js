@@ -95,15 +95,15 @@ export default function OverOns() {
 						<p
 							className="mt-3 text-secondary text-xl"
 						>
-							Met de onze configurator ontwerp je snel en eenvoudig op maat gemaakte kozijnen, zowel in kunststof als aluminium. Kies uit verschillende stijlen, kleuren, afwerkingen en glasopties om kozijnen te creëren die passen bij jouw woning.
+							Met onze configurator ontwerp je snel en eenvoudig op maat gemaakte kozijnen, zowel in kunststof als aluminium. Kies uit verschillende stijlen, afwerkingen, glasopties én een zeer ruim aanbod aan kleuren — inclusief alle RAL-kleuren — om kozijnen te creëren die perfect passen bij jouw woning.
 							<br/><br/>
 							De gebruiksvriendelijke configurator biedt direct inzicht in de prijs, zodat je precies weet waar je aan toe bent. Na het ontwerp zorgen wij voor de productie en vakkundige installatie van jouw kozijnen. Maak jouw woning compleet met onze configurator!
 						</p>
 					</div>
 					<img
-						src="/images/kozijnen-fabriek.png"
-						alt="Kozijnen fabriek afbeelding"
-						className="md:w-[620px] h-auto ml-24"
+						src="/images/kleuren-bacu.png"
+						alt="Kleuren afbeelding"
+						className="md:w-[620px] h-auto ml-24 rounded-xl"
 					/>
 				</section>
 				{/* Steps */}

@@ -8,6 +8,14 @@ import ReviewsSection from "../components/ReviewsSection";
 import StepsSection from "../components/StepsSection";
 
 export default function Buitendeuren() {
+	const faqItems = [
+		["Waarom een nieuwe voordeur kopen?", "Een nieuwe voordeur zorgt voor betere isolatie, meer veiligheid en een moderne uitstraling. Het verhoogt niet alleen het wooncomfort, maar ook de waarde van je woning. Daarnaast biedt het een kans om je huis te personaliseren en aan te passen aan je eigen stijl en smaak."],
+		["Hoe lang gaat een buitendeur mee?", "Een buitendeur van hoge kwaliteit gaat gemiddeld 25 tot 30 jaar mee. De levensduur hangt af van het materiaal, de afwerking en het onderhoud. Goed onderhouden deuren van bijvoorbeeld kunststof of aluminium blijven jarenlang mooi, sterk en goed isolerend tegen weer en wind."],
+		["Kunnen jullie helpen met mijn offerte?", "Ja, we helpen je graag bij het opstellen van een offerte op maat. Neem vrijblijvend contact met ons op via het formulier of telefonisch. Samen bekijken we jouw wensen en adviseren we je over de beste oplossingen, prijzen en mogelijkheden binnen jouw budget."],
+		["Wat zijn de levertijden?", "De levertijd van onze buitendeuren is gemiddeld 4 tot 6 weken. Zodra je bestelling is bevestigd, houden we je op de hoogte van de voortgang. We plannen de levering en plaatsing altijd in overleg, zodat je precies weet waar je aan toe bent."],
+		["Bieden jullie alleen voordeuren aan?", "Nee, naast voordeuren leveren wij ook achterdeuren, schuurdeuren en andere soorten buitendeuren. Alles wordt volledig op maat gemaakt in diverse stijlen en kleuren. Zo vind je altijd een deur die past bij jouw woning, smaak en functionele behoeften."],
+		["Waarom BaCu Kozijnen kiezen?", "BaCu Kozijnen staat voor vakmanschap, betrouwbaarheid en maatwerk. We gebruiken duurzame materialen, leveren uitstekende service en bieden persoonlijk advies. Dankzij onze jarenlange ervaring zorgen we voor een perfect eindresultaat dat volledig aansluit bij jouw woning en wensen."]
+	]
 	return (
 		<div className="bg-background font-outfit">
 			{/* Navbar */}
@@ -138,7 +146,7 @@ export default function Buitendeuren() {
 				</div>
 			</section>
 			{/* FAQ */}
-			<FAQSection />
+			<FAQSection faqItems={faqItems} />
 			{/* Reviews */}
 			<ReviewsSection />
 			{/* Offerte form */}

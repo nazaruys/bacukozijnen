@@ -8,6 +8,14 @@ import ReviewsSection from "../components/ReviewsSection";
 import StepsSection from "../components/StepsSection";
 
 export default function Rolluiken() {
+	const faqItems = [
+		["Wat zijn de voordelen van rolluiken?", "Rolluiken bieden privacy, verduisteren kamers, verbeteren de isolatie en verhogen de veiligheid van je woning. Ze beschermen tegen weersinvloeden en kunnen ook het geluid van buitenaf dempen. Bovendien bieden ze esthetische voordelen door het strakke, moderne uiterlijk."],
+		["Hoe helpen rolluiken bij energiebesparing?", "Rolluiken verbeteren de thermische isolatie van je woning. Ze houden warmte binnen in de winter en buiten in de zomer, wat helpt om de energiekosten te verlagen. Hierdoor hoef je minder te stoken of te koelen, wat resulteert in lagere energiekosten en een duurzamer energieverbruik."],
+		["Kunnen jullie helpen met mijn offerte?", "Ja, we helpen je graag bij het opstellen van een offerte voor rolluiken. Neem contact met ons op voor advies op maat. We bespreken jouw wensen en geven een prijsopgave die past bij je budget en situatie. Zo weet je precies waar je aan toe bent."],
+		["Zijn rolluiken moeilijk te installeren?", "De installatie verschilt per type: inbouwrolluiken vereisen meer werk, omdat ze in de gevel moeten worden geïntegreerd. Opbouwrolluiken zijn eenvoudiger te monteren aan de buitenkant van het raam. Maak je geen zorgen, wij zorgen voor een professionele installatie, zodat je zeker weet dat alles goed en veilig wordt geplaatst."],
+		["Wat is het verschil tussen inbouw- en opbouwrolluiken?", "Inbouwrolluiken worden ingebouwd in de muur of het kozijn, wat zorgt voor een strakke afwerking. Ze bieden een betere isolatie en zijn visueel discreter. Opbouwrolluiken worden aan de buitenkant van het raam gemonteerd, wat de installatie eenvoudiger maakt en meer flexibiliteit biedt in het design en de plaatsing."],
+		["Waarom BaCu Kozijnen kiezen?", "BaCu Kozijnen biedt kwalitatieve rolluiken op maat, uitstekende service en professioneel advies. We werken met duurzame materialen en zorgen voor een perfecte installatie. Ons vakmanschap garandeert dat je rolluiken lang meegaan en optimaal presteren, waardoor je investering de moeite waard is."]
+	]
 	return (
 		<div className="bg-background font-outfit">
 			{/* Navbar */}
@@ -140,7 +148,7 @@ export default function Rolluiken() {
 				</div>
 			</section>
 			{/* FAQ */}
-			<FAQSection />
+			<FAQSection faqItems={faqItems} />
 			{/* Reviews */}
 			<ReviewsSection />
 			{/* Offerte form */}

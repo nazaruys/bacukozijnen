@@ -8,6 +8,14 @@ import ReviewsSection from "../components/ReviewsSection";
 import StepsSection from "../components/StepsSection";
 
 export default function Kozijnen() {
+	const faqItems = [
+		["Waarom kunststof kozijnen kiezen?", "Kunststof kozijnen zijn duurzaam, isolerend en onderhoudsarm. Ze rotten niet, verkleuren nauwelijks en besparen energie. Verkrijgbaar in diverse stijlen en kleuren, passend bij elke woning. Een slimme, esthetische en langdurige investering."],
+		["Hoe lang gaat een kunststof kozijn op maat mee?", "Gemiddeld gaan kunststof kozijnen tot 50 jaar mee. Ze zijn weerbestendig, verkleuren niet snel en vergen weinig onderhoud. Regelmatig schoonmaken volstaat. Dankzij hoogwaardige materialen behouden ze jarenlang hun kwaliteit en isolatiewaarde."],
+		["Komen jullie mijn kozijnen inmeten?", "Ja, als je daarvoor kiest. Wij bieden professionele inmeetservice om fouten te voorkomen en een perfecte pasvorm te garanderen. Onze specialist meet nauwkeurig en adviseert over indeling, afwerking en opties — zodat jouw kozijnen precies passen bij jouw woning en wensen."],
+		["Wat zijn de levertijden?", "Onze levertijd bedraagt gemiddeld 4 tot 6 weken na akkoord. Elk kozijn wordt op maat geproduceerd en professioneel geplaatst. We houden je tussentijds op de hoogte en plannen montage in overleg, voor een soepele en snelle oplevering."],
+		["Zijn kunststof kozijnen geschikt voor elke woningstijl?", "Ja, kunststof kozijnen zijn verkrijgbaar in diverse kleuren, vormen en structuren. Of je woning klassiek, landelijk of modern is — er is altijd een passende stijl. Met houtnerfstructuren zijn ze zelfs nauwelijks van echt hout te onderscheiden."],
+		["Waarom BaCu Kozijnen kiezen?", "Bij BaCu krijg je topkwaliteit, deskundig advies en uitstekende service. Wij leveren maatwerk, meten gratis in, werken met A-merken en zorgen voor een vakkundige montage. Afspraak is afspraak, en jouw tevredenheid staat altijd voorop."]
+	]
 	return (
 		<div className="bg-background font-outfit">
 			{/* Navbar */}
@@ -118,9 +126,9 @@ export default function Kozijnen() {
 				className="bg-secondaryBackground md:px-36 flex flex-row items-center py-28"
 			>
 				<img
-					src="/images/kozijn-3-ramen2.png"
-					alt="Kozijn met 3 ramen afbeelding"
-					className="md:w-[500px] h-auto mr-24"
+					src="/images/kleuren-bacu.png"
+					alt="Kleuren afbeelding"
+					className="md:w-[500px] h-auto mr-24 rounded-xl"
 				/>
 				<div
 					className="flex flex-col"
@@ -133,14 +141,14 @@ export default function Kozijnen() {
 					<p
 						className="mt-3 text-secondary text-xl"
 					>
-						Het juiste kozijn maakt een wereld van verschil voor je woning. Bij BaCu Kozijnen bieden we volledig op maat gemaakte kunststof en aluminium kozijnen die perfect aansluiten bij jouw stijl en wensen. Kies uit diverse kleuren, afwerkingen en glasopties voor een modern of klassiek uiterlijk.
+						Het juiste kozijn maakt een wereld van verschil voor je woning. Bij BaCu Kozijnen leveren we volledig op maat gemaakte kunststof en aluminium kozijnen die perfect aansluiten bij jouw stijl en wensen. Dankzij de uitgebreide keuzemogelijkheden in kleuren — inclusief het volledige RAL-kleurenpalet — afwerkingen en glasopties geef je jouw woning moeiteloos een moderne of juist klassieke uitstraling.
 						<br/><br/>
-						Wil je hoogwaardige kozijnen voor de beste prijs? Kies dan voor op maat gemaakte kunststof en aluminium kozijnen van BaCu Kozijnen!
+						Wil je hoogwaardige kozijnen voor de beste prijs? Kies dan voor maatwerk van BaCu Kozijnen!
 					</p>
 				</div>
 			</section>
 			{/* FAQ */}
-			<FAQSection />
+			<FAQSection faqItems={faqItems} />
 			{/* Reviews */}
 			<ReviewsSection />
 			{/* Offerte form */}
