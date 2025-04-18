@@ -12,7 +12,7 @@ function Footer() {
 				<a href="/" className="block">
 					<img 
 						src="/logos/BaCu-transparent.png" 
-						alt="BaCu Kozijnen Full Logo"
+						alt="BaCu Kozijnen logo op de homepage – expert in kunststof kozijnen en rolluiken in Nederland"
 						className="w-36 md:w-44 h-auto" 
 					/>
 				</a>

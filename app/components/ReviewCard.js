@@ -8,7 +8,7 @@ function ReviewCard({ avatarPath, name, text }) {
             className="flex flex-row items-center"
         >
             <img
-            alt={avatarPath}
+            alt={name}
             src={avatarPath}
             className="object-cover rounded-full mr-3"
             loading="lazy"

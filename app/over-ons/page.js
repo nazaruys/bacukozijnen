@@ -54,7 +54,7 @@ export default function OverOns() {
 					{/* Right Image */}
 					<img
 						src="/logos/BaCu-full.jpg"
-						alt="BaCu logo"
+						alt="BaCu Kozijnen logo – specialist in kozijnen, rolluiken en buitendeuren"
 						className="md:w-[450px] h-auto rounded-xl shadow-lg"
 					/>
 				</section>
@@ -64,7 +64,7 @@ export default function OverOns() {
 				>
 					<img 
 							src="/images/sofa.png" 
-							alt="Kozijnen afbeelding"
+							alt="Zonlicht valt op een moderne bank via grote kozijnen in de woonkamer"
 							className="w-36 md:min-w-[500px] max-h-[615px] object-cover md:mr-[130px] rounded-xl"
 					/>
 					<div className="h-full">
@@ -102,7 +102,7 @@ export default function OverOns() {
 					</div>
 					<img
 						src="/images/kleuren-bacu.png"
-						alt="Kleuren afbeelding"
+						alt="Complete RAL-kleurenwaaier voor kozijnen, deuren en andere producten"
 						className="md:w-[620px] h-auto ml-24 rounded-xl"
 					/>
 				</section>
@@ -114,7 +114,7 @@ export default function OverOns() {
 				>
 					<img 
 							src="/images/huis-2-verdiepingen.png" 
-							alt="Kozijnen afbeelding"
+							alt="Nederlands huis met rolluiken, kozijnen en een moderne voordeur voor een eigentijdse uitstraling"
 							className="w-36 md:min-w-[500px] object-cover h-auto md:mr-[130px] rounded-xl"
 					/>
 					<div className="h-full">

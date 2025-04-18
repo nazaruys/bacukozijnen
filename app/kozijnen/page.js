@@ -63,7 +63,7 @@ export default function Kozijnen() {
 				{/* Right Image */}
 				<img
 					src="/images/kozijn-6-ramen.png"
-					alt="Kozijn met 6 ramen afbeelding"
+					alt="Kozijn met zes ramen en strakke lijnen voor een moderne uitstraling"
 					className="md:w-[500px] h-auto"
 				/>
 			</section>
@@ -75,7 +75,7 @@ export default function Kozijnen() {
 			>
 				<img
 					src="/images/kozijn-3-ramen.png"
-					alt="Kozijn met 3 ramen afbeelding"
+					alt="Kozijn met drie ramen, ideaal voor veel natuurlijk licht in een woonkamer"
 					className="md:w-[500px] h-auto mr-24"
 				/>
 				<div
@@ -117,7 +117,7 @@ export default function Kozijnen() {
 				</div>
 				<img
 					src="/images/kozijn-6-ramen2.png"
-					alt="Kozijn met 6 ramen afbeelding"
+					alt="Zwart kozijn met zes ramen op een moderne woning voor een strakke uitstraling"
 					className="md:w-[570px] h-auto ml-24"
 				/>
 			</section>
@@ -127,7 +127,7 @@ export default function Kozijnen() {
 			>
 				<img
 					src="/images/kleuren-bacu.png"
-					alt="Kleuren afbeelding"
+					alt="Kleurenpallet met populaire RAL-kleuren zoals RAL 9005 zwart en RAL 9016 wit"
 					className="md:w-[500px] h-auto mr-24 rounded-xl"
 				/>
 				<div

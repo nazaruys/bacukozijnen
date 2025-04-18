@@ -79,7 +79,7 @@ export default function Home() {
             <span className="text-lg text-white">Klanten geven ons een 5/5</span>
             <img
               src="/logos/google-reviews.png"
-              alt="Google Reviews Logo"
+              alt="Google Reviews logo met vijf sterren beoordeling voor kozijnenbedrijf"
               className="w-4 md:w-28 h-auto mr-3"
             />
           </a>
@@ -93,7 +93,7 @@ export default function Home() {
       >
         <img 
           src="/images/sofa.png" 
-          alt="Kozijnen afbeelding"
+          alt="Zonlicht valt op een moderne bank via grote kozijnen in de woonkamer"
           className="w-36 md:w-[400px] h-auto md:mr-[130px]"
         />
         <div className="h-full">
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="flex overflow-hidden">
               <img
                 src="/images/kozijn.png"
-                alt="Kozijn afbeelding"
+                alt="Kunststof kozijn op een woning, strak en onderhoudsvriendelijk"
                 className="w-full h-auto transition-transform duration-500 transform group-hover:scale-103"
               />
             </div>
@@ -190,7 +190,7 @@ export default function Home() {
             <div className="flex overflow-hidden">
               <img
                 src="/images/voordeur.png"
-                alt="Buitendeur afbeelding"
+                alt="Stijlvolle rode voordeur met glas en metalen handgreep"
                 className="w-full h-auto transition-transform duration-500 transform group-hover:scale-103"
               />
             </div>
@@ -252,7 +252,7 @@ export default function Home() {
             <div className="flex overflow-hidden">
               <img
                 src="/images/rolluiken.png"
-                alt="Rolluiken afbeelding"
+                alt="Zwarte rolluiken gemonteerd op witte gevel van een vrijstaand huis"
                 className="w-full h-auto transition-transform duration-500 transform group-hover:scale-103"
               />
             </div>
@@ -400,7 +400,7 @@ export default function Home() {
           {/* Right Image */}
           <img
             src="/images/huis.png"
-            alt="Huis afbeelding"
+            alt="Vrijstaand huis met glazen balkon en moderne kozijnen"
             className="w-36 md:w-[500px] h-auto"
           />
       </section>

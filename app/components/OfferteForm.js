@@ -124,7 +124,7 @@ function OfferteForm() {
 			{/* Modern House Image */}
 			<img
 				src="/images/moderne-huis.png"
-				alt="Modernde huis afbeelding"
+				alt="Minimalistisch wit huis met moderne voordeur en kozijnen"
 				className="w-36 md:w-[436px] h-auto mr-24"
 			/>
 			{/* Form Container */}

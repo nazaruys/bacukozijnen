@@ -63,7 +63,7 @@ export default function Buitendeuren() {
 				{/* Right Image */}
 				<img
 					src="/images/deur-donker-bruin.png"
-					alt="Deur donker bruin afbeelding"
+					alt="Donkerbruine houten voordeur met klassiek design voor woningentree"
 					className="md:w-[500px] h-auto"
 				/>
 			</section>
@@ -75,7 +75,7 @@ export default function Buitendeuren() {
 			>
 				<img
 					src="/images/deur-zwart.png"
-					alt="Zwart deur afbeelding"
+					alt="Strakke zwarte buitendeur met modern design en matte afwerking"
 					className="md:w-[515px] h-auto mr-24"
 				/>
 				<div
@@ -115,7 +115,7 @@ export default function Buitendeuren() {
 				</div>
 				<img
 					src="/images/deur-met-licht.png"
-					alt="Deur met licht afbeelding"
+					alt="Buitendeur met glaspanelen waar zacht licht van lampen doorheen valt"
 					className="md:w-[570px] h-auto ml-24"
 				/>
 			</section>
@@ -125,7 +125,7 @@ export default function Buitendeuren() {
 			>
 				<img
 					src="/images/deur-ramen.png"
-					alt="Deur met ramen afbeelding"
+					alt="Voordeur met vierkante ramen en stalen frame voor extra licht en stijl"
 					className="md:w-[500px] h-auto mr-24"
 				/>
 				<div

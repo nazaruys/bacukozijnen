@@ -41,7 +41,7 @@ export default function Contact() {
 				{/* Right Image */}
 				<img
 					src="/images/beige-kozijn.png"
-					alt="Beige kozijn afbeelding"
+					alt="Beige kozijnen voor een warme en natuurlijke uitstraling van het huis"
 					className="md:w-[435px] h-auto"
 				/>
 			</section>

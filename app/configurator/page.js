@@ -15,7 +15,7 @@ function page(props) {
             <div className="flex flex-col items-center justify-center md:py-20">  
                 <img 
                     src="/illustrations/develope.svg"
-                    alt="Illustration of development in progress" 
+                    alt="Illustratie van werkzaamheden – ontwikkeling in uitvoering" 
                     className="w-[300px] mb-5"
                 />
                 <h1

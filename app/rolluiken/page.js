@@ -63,7 +63,7 @@ export default function Rolluiken() {
 				{/* Right Image */}
 				<img
 					src="/images/rolluik-zwart.png"
-					alt="Zwarte rolluik afbeelding"
+					alt="Zwarte rolluik op een witte muur voor een strakke, moderne uitstraling"
 					className="md:w-[490px] h-auto"
 				/>
 			</section>
@@ -75,7 +75,7 @@ export default function Rolluiken() {
 			>
 				<img
 					src="/images/rolluiken-huis.png"
-					alt="Zwarte rolluiken op een huis afbeelding"
+					alt="Moderne woning met zwarte rolluiken op een zwart geverfde gevel"
 					className="md:w-[515px] h-auto mr-24"
 				/>
 				<div
@@ -117,7 +117,7 @@ export default function Rolluiken() {
 				</div>
 				<img
 					src="/images/rolluik-wit.png"
-					alt="Witte rolluik afbeelding"
+					alt="Witte rolluik op achtertuindeur voor extra privacy en zonwering"
 					className="md:w-[570px] h-auto ml-24"
 				/>
 			</section>
@@ -127,7 +127,7 @@ export default function Rolluiken() {
 			>
 				<img
 					src="/images/rolluiken-baksteen-huis.png"
-					alt="Rolluiken op een baksteen huis afbeelding"
+					alt="Zwarte rolluiken op een bakstenen huis voor een stoere en moderne uitstraling"
 					className="md:w-[500px] h-auto mr-24"
 				/>
 				<div

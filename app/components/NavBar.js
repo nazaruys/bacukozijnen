@@ -45,7 +45,7 @@ const Navbar = ({ currentPage }) => {
         >
             <img
               src="/logos/google.png"
-              alt="Google Logo"
+              alt="Google logo"
               className="w-4 md:w-6 h-auto mr-3"
             />
             <span>Beoordeling van 5/5</span>
@@ -83,7 +83,7 @@ const Navbar = ({ currentPage }) => {
                 >
                     <img
                     src="/logos/instagram.webp"
-                    alt="Instagram Logo"
+                    alt="Instagram logo – volg BaCu Kozijnen voor inspiratie en projecten"
                     className="w-4 md:w-6 h-auto"
                     />
                 </a>
@@ -95,7 +95,7 @@ const Navbar = ({ currentPage }) => {
                 >
                     <img
                     src="/logos/tiktok.webp"
-                    alt="TikTok Logo"
+                    alt="TikTok logo – bekijk korte video's van BaCu Kozijnen projecten"
                     className="w-3 md:w-4 h-auto"
                     />
                 </a>
@@ -107,7 +107,7 @@ const Navbar = ({ currentPage }) => {
                 >
                     <img
                     src="/logos/facebook.webp"
-                    alt="Facebook Logo"
+                    alt="Facebook logo – volg BaCu Kozijnen voor nieuws en klantbeoordelingen"
                     className="w-6 md:w-8 h-auto"
                     />
                 </a>
@@ -123,7 +123,7 @@ const Navbar = ({ currentPage }) => {
             <a href="/" className="block">
               <img 
                 src="/logos/BaCu-transparent.png" 
-                alt="BaCu Kozijnen Full Logo"
+                alt="BaCu Kozijnen full logo – specialist in kozijnen, rolluiken en buitendeuren in Nederland"
                 className="w-36 md:w-40 h-auto" 
               />
             </a>
