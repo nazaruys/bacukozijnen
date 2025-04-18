@@ -88,6 +88,7 @@ function OfferteForm() {
 						theme: "light",
 						transition: Bounce,
 					});
+					setIsLoading(false);
 					// Debug
 					throw new Error(`Error: ${response.statusText}`);
 			}

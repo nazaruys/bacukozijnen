@@ -9,8 +9,8 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "BaCu",
-  description: "BaCu - A simple and elegant website",
+  title: "BaCu Kozijnen",
+  description: "BaCu Kozijnen: Kiezen voor Kwaliteit en Duurzaamheid",
 };
 
 export default function RootLayout({ children }) {

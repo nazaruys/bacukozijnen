@@ -380,7 +380,7 @@ export default function Home() {
               <p className="text-secondary text-xl mt-4">Begin nu en geef je huis de perfecte uitstraling!</p>
             </div>
             <a
-              href="/congigurator"
+              href="/configurator"
               className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-12 w-[225px]"
             >
               Start je berekening
