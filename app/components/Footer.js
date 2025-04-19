@@ -11,7 +11,7 @@ function Footer() {
 			>
 				<a href="/" className="block">
 					<img 
-						src="/logos/BaCu-transparent.png" 
+						src="/logos/BaCu-transparent.webp" 
 						alt="BaCu Kozijnen logo op de homepage – expert in kunststof kozijnen en rolluiken in Nederland"
 						className="w-36 md:w-44 h-auto" 
 					/>
@@ -45,6 +45,7 @@ function Footer() {
 					>
 						<li>
 							<a
+								title="Stuur een e-mail"
 								href="mailto:info@bacukozijnen.nl"
 								className="underline"
 								target='_blank'
@@ -54,6 +55,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
+								title="Bel ons direct"
 								href="tel:0362340070"
 								className="underline"
 								target='_blank'
@@ -63,6 +65,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
+								title="Stuur ons een bericht via WhatsApp"
 								href="https://api.whatsapp.com/send/?phone=31614438309"
 								className="underline"
 								target='_blank'
@@ -72,6 +75,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
+								title="Bekijk onze Instagram"
 								href="https://www.instagram.com/bacukozijnen/"
 								className="underline"
 								target='_blank'
@@ -98,6 +102,7 @@ function Footer() {
 					>
 						<li>
 							<a
+								title="Ga naar de Kozijnen pagina"
 								href="/kozijnen"
 								className="underline"
 							>
@@ -106,6 +111,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
+								title="Ga naar de Rolluiken pagina"
 								href="/rolluiken"
 								className="underline"
 							>
@@ -114,6 +120,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
+								title="Ga naar de Buitendeuren pagina"
 								href="/buitendeuren"
 								className="underline"
 							>
@@ -136,6 +143,7 @@ function Footer() {
 					>
 						<li>
 							<a
+								title="Lees meer over BaCu Kozijnen"
 								href="/over-ons"
 								className="underline"
 							>
@@ -144,6 +152,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
+								title="Ga naar configurator"
 								href="/configurator"
 								className="underline"
 							>
@@ -152,6 +161,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
+								title="Ga naar contactpagina"
 								href="/contact"
 								className="underline"
 							>
@@ -160,6 +170,7 @@ function Footer() {
 						</li>
 						<li>
 							<a
+								title="Ga naar Google Maps"
 								href="https://maps.app.goo.gl/j2vAT6gt1CsqoBrA7"
 								className="underline"
 								target='_blank'

@@ -18,6 +18,7 @@ export default function Buitendeuren() {
 	]
 	return (
 		<div className="bg-background font-outfit">
+			<title>Maak je buitendeuren op maat | BaCu Kozijnen</title>
 			{/* Navbar */}
 			<Navbar currentPage={"buitendeuren"} />
 			{/* Main section */}
@@ -44,6 +45,7 @@ export default function Buitendeuren() {
 					</p>
 					{/* Button */}
 					<a
+						title="Ga naar de configurator"
 						href="/configurator"
 						className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-16 w-[225px]"
 						>
@@ -62,7 +64,7 @@ export default function Buitendeuren() {
 				</div>
 				{/* Right Image */}
 				<img
-					src="/images/deur-donker-bruin.png"
+					src="/images/deur-donker-bruin.webp"
 					alt="Donkerbruine houten voordeur met klassiek design voor woningentree"
 					className="md:w-[500px] h-auto"
 				/>
@@ -74,7 +76,7 @@ export default function Buitendeuren() {
 				className="bg-secondaryBackground md:px-36 flex flex-row items-center py-28"
 			>
 				<img
-					src="/images/deur-zwart.png"
+					src="/images/deur-zwart.webp"
 					alt="Strakke zwarte buitendeur met modern design en matte afwerking"
 					className="md:w-[515px] h-auto mr-24"
 				/>
@@ -114,7 +116,7 @@ export default function Buitendeuren() {
 					</p>
 				</div>
 				<img
-					src="/images/deur-met-licht.png"
+					src="/images/deur-met-licht.webp"
 					alt="Buitendeur met glaspanelen waar zacht licht van lampen doorheen valt"
 					className="md:w-[570px] h-auto ml-24"
 				/>
@@ -124,7 +126,7 @@ export default function Buitendeuren() {
 				className="bg-secondaryBackground md:px-36 flex flex-row items-center py-28"
 			>
 				<img
-					src="/images/deur-ramen.png"
+					src="/images/deur-ramen.webp"
 					alt="Voordeur met vierkante ramen en stalen frame voor extra licht en stijl"
 					className="md:w-[500px] h-auto mr-24"
 				/>

@@ -7,6 +7,7 @@ import OfferteForm from "../components/OfferteForm";
 import ReviewsSection from "../components/ReviewsSection";
 import StepsSection from "../components/StepsSection";
 
+
 export default function Kozijnen() {
 	const faqItems = [
 		["Waarom kunststof kozijnen kiezen?", "Kunststof kozijnen zijn duurzaam, isolerend en onderhoudsarm. Ze rotten niet, verkleuren nauwelijks en besparen energie. Verkrijgbaar in diverse stijlen en kleuren, passend bij elke woning. Een slimme, esthetische en langdurige investering."],
@@ -18,6 +19,7 @@ export default function Kozijnen() {
 	]
 	return (
 		<div className="bg-background font-outfit">
+			<title>Maak je kozijnen op maat | BaCu Kozijnen</title>
 			{/* Navbar */}
 			<Navbar currentPage={"kozijnen"} />
 			{/* Main section */}
@@ -44,25 +46,26 @@ export default function Kozijnen() {
 					</p>
 					{/* Button */}
 					<a
-              href="/configurator"
-              className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-16 w-[225px]"
-            >
-              Start je berekening
-              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="18" viewBox="0 0 11 18" fill="none" className="ml-1 transition-transform duration-500 transform group-hover:translate-x-[3px]">
-                <g clipPath="url(#clip0_81_15)">
-                  <path d="M0.169159 15.5025L6.65749 9L0.169159 2.4975L2.16666 0.5L10.6667 9L2.16666 17.5L0.169159 15.5025Z" fill="white" />
-                </g>
-                <defs>
-                  <clipPath id="clip0_81_15">
-                    <rect width="11" height="18" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </a>
+						title="Ga naar de configurator"
+						href="/configurator"
+						className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-16 w-[225px]"
+						>
+						Start je berekening
+						<svg xmlns="http://www.w3.org/2000/svg" width="11" height="18" viewBox="0 0 11 18" fill="none" className="ml-1 transition-transform duration-500 transform group-hover:translate-x-[3px]">
+							<g clipPath="url(#clip0_81_15)">
+							<path d="M0.169159 15.5025L6.65749 9L0.169159 2.4975L2.16666 0.5L10.6667 9L2.16666 17.5L0.169159 15.5025Z" fill="white" />
+							</g>
+							<defs>
+							<clipPath id="clip0_81_15">
+								<rect width="11" height="18" fill="white" />
+							</clipPath>
+							</defs>
+						</svg>
+					</a>
 				</div>
 				{/* Right Image */}
 				<img
-					src="/images/kozijn-6-ramen.png"
+					src="/images/kozijn-6-ramen.webp"
 					alt="Kozijn met zes ramen en strakke lijnen voor een moderne uitstraling"
 					className="md:w-[500px] h-auto"
 				/>
@@ -74,7 +77,7 @@ export default function Kozijnen() {
 				className="bg-secondaryBackground md:px-36 flex flex-row items-center py-28"
 			>
 				<img
-					src="/images/kozijn-3-ramen.png"
+					src="/images/kozijn-3-ramen.webp"
 					alt="Kozijn met drie ramen, ideaal voor veel natuurlijk licht in een woonkamer"
 					className="md:w-[500px] h-auto mr-24"
 				/>
@@ -116,7 +119,7 @@ export default function Kozijnen() {
 					</p>
 				</div>
 				<img
-					src="/images/kozijn-6-ramen2.png"
+					src="/images/kozijn-6-ramen2.webp"
 					alt="Zwart kozijn met zes ramen op een moderne woning voor een strakke uitstraling"
 					className="md:w-[570px] h-auto ml-24"
 				/>
@@ -126,7 +129,7 @@ export default function Kozijnen() {
 				className="bg-secondaryBackground md:px-36 flex flex-row items-center py-28"
 			>
 				<img
-					src="/images/kleuren-bacu.png"
+					src="/images/kleuren-bacu.webp"
 					alt="Kleurenpallet met populaire RAL-kleuren zoals RAL 9005 zwart en RAL 9016 wit"
 					className="md:w-[500px] h-auto mr-24 rounded-xl"
 				/>

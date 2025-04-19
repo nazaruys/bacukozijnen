@@ -39,12 +39,12 @@ const Navbar = ({ currentPage }) => {
         }`}
       >
         <a
-            className="flex flex-row items-center"
-            href="https://maps.app.goo.gl/j2vAT6gt1CsqoBrA7"
-            target='_blank'
+          className="flex flex-row items-center"
+          href="https://maps.app.goo.gl/j2vAT6gt1CsqoBrA7"
+          target='_blank'
         >
             <img
-              src="/logos/google.png"
+              src="/logos/google.webp"
               alt="Google logo"
               className="w-4 md:w-6 h-auto mr-3"
             />
@@ -76,6 +76,7 @@ const Navbar = ({ currentPage }) => {
             </div>
             <div className="flex items-center space-x-8">
                 <a
+                    title="Volg BaCu Kozijnen op Instagram"
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.instagram.com/bacukozijnen/"
@@ -88,6 +89,7 @@ const Navbar = ({ currentPage }) => {
                     />
                 </a>
                 <a
+                    title="Volg BaCu Kozijnen op TikTok"
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.tiktok.com/@bacu337"
@@ -100,6 +102,7 @@ const Navbar = ({ currentPage }) => {
                     />
                 </a>
                 <a
+                    title="Volg BaCu Kozijnen op Facebook"
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.facebook.com/profile.php?id=61570093915942"
@@ -122,7 +125,7 @@ const Navbar = ({ currentPage }) => {
           <div className="flex-shrink-0">
             <a href="/" className="block">
               <img 
-                src="/logos/BaCu-transparent.png" 
+                src="/logos/BaCu-transparent.webp" 
                 alt="BaCu Kozijnen full logo – specialist in kozijnen, rolluiken en buitendeuren in Nederland"
                 className="w-36 md:w-40 h-auto" 
               />
@@ -136,15 +139,15 @@ const Navbar = ({ currentPage }) => {
                     {navigationItemsLeft.map((item) => (
                     <li key={item.slug} className="relative group">
                         <a
-                        href={`/${item.slug}`}
-                        className="block py-1 transition-all"
+                          href={`/${item.slug}`}
+                          className="block py-1 transition-all"
                         >
                         {item.name}
                         </a>
                         <span
-                        className={`absolute left-0 bottom-0 h-[2px] bg-primary transition-all ${
+                          className={`absolute left-0 bottom-0 h-[2px] bg-primary transition-all ${
                             currentPage === item.slug ? 'w-full' : 'w-0 group-hover:w-full'
-                        }`}
+                          }`}
                         ></span>
                     </li>
                     ))}
@@ -172,6 +175,7 @@ const Navbar = ({ currentPage }) => {
 
                     {/* Button */}
                     <a
+                        title="Vraag een offerte aan"
                         href="#offerte"
                         className="bg-primary text-sm text-white px-6 py-[10px] rounded-4xl transition-all transform duration-500 hover:bg-primaryDark"
                     >

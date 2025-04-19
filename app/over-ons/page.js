@@ -9,6 +9,7 @@ import StepsSection from "../components/StepsSection";
 export default function OverOns() {
     return (
       <div className="bg-background font-outfit">
+		<title>Over ons | BaCu Kozijnen</title>
       	{/* Navbar */}
 				<Navbar currentPage={"over-ons"} />
 				{/* Main section */}
@@ -35,6 +36,8 @@ export default function OverOns() {
 						</p>
 						{/* Button */}
 						<a
+							title="Ga naar de configurator"
+							aria-label="Start je berekening"
 							href="/configurator"
 							className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-16 w-[225px]"
 							>
@@ -53,7 +56,7 @@ export default function OverOns() {
 					</div>
 					{/* Right Image */}
 					<img
-						src="/logos/BaCu-full.jpg"
+						src="/logos/BaCu-full.webp"
 						alt="BaCu Kozijnen logo – specialist in kozijnen, rolluiken en buitendeuren"
 						className="md:w-[450px] h-auto rounded-xl shadow-lg"
 					/>
@@ -63,7 +66,7 @@ export default function OverOns() {
 						className="p-20 bg-background md:px-36 md:py-[100px] flex flex-column items-center"
 				>
 					<img 
-							src="/images/sofa.png" 
+							src="/images/sofa.webp" 
 							alt="Zonlicht valt op een moderne bank via grote kozijnen in de woonkamer"
 							className="w-36 md:min-w-[500px] max-h-[615px] object-cover md:mr-[130px] rounded-xl"
 					/>
@@ -101,7 +104,7 @@ export default function OverOns() {
 						</p>
 					</div>
 					<img
-						src="/images/kleuren-bacu.png"
+						src="/images/kleuren-bacu.webp"
 						alt="Complete RAL-kleurenwaaier voor kozijnen, deuren en andere producten"
 						className="md:w-[620px] h-auto ml-24 rounded-xl"
 					/>
@@ -113,7 +116,7 @@ export default function OverOns() {
 						className="p-20 bg-background md:px-36 md:py-[100px] flex flex-column items-center"
 				>
 					<img 
-							src="/images/huis-2-verdiepingen.png" 
+							src="/images/huis-2-verdiepingen.webp" 
 							alt="Nederlands huis met rolluiken, kozijnen en een moderne voordeur voor een eigentijdse uitstraling"
 							className="w-36 md:min-w-[500px] object-cover h-auto md:mr-[130px] rounded-xl"
 					/>
@@ -126,6 +129,8 @@ export default function OverOns() {
 						</p>
 						{/* Button */}
 						<a
+							aria-label="Neem contact op voor vragen, offertes of meer informatie"
+  							title="Ga naar de contactpagina"
 							href="/contact"
 							className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-12 w-[225px]"
 							>

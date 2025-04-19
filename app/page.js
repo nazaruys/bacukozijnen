@@ -10,6 +10,7 @@ import StepsSection from "./components/StepsSection";
 export default function Home() {
   return (
     <div className="bg-background font-outfit">
+      <title>Kozijnen, buitendeuren en rolluiken met montage | BaCu Kozijnen</title>
       <Navbar currentPage={""} />
       <ToastContainer />
       {/* Main */}
@@ -17,7 +18,7 @@ export default function Home() {
         className="flex flex-row justify-between h-[600px] md:px-36 md:py-20"
         id="main"
         style={{
-          backgroundImage: 'url("/images/main-background.png")',
+          backgroundImage: 'url("/images/main-background.webp")',
           backgroundPosition: 'center center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
@@ -61,6 +62,7 @@ export default function Home() {
             </div>
           </div>
           <a
+            title="Ga naar de configurator"
             href="/configurator"
             className="flex justify-center items-center bg-primary text-lg text-white w-full md:py-3 font-medium rounded-4xl  transition-all transform duration-500 hover:bg-primaryDark mt-auto"
           >
@@ -72,13 +74,14 @@ export default function Home() {
           className="flex justify-center items-center md:w-[465px] md:h-[65px] bg-base/45 rounded-4xl backdrop-blur-sm mt-auto"
         >
           <a
+            title="Ga naar Google Maps"
             className="flex flex-row justify-center items-center"
             href="https://maps.app.goo.gl/j2vAT6gt1CsqoBrA7"
             target="_blank"
           >
             <span className="text-lg text-white">Klanten geven ons een 5/5</span>
             <img
-              src="/logos/google-reviews.png"
+              src="/logos/google-reviews.webp"
               alt="Google Reviews logo met vijf sterren beoordeling voor kozijnenbedrijf"
               className="w-4 md:w-28 h-auto mr-3"
             />
@@ -92,7 +95,7 @@ export default function Home() {
         className="h-[750px] bg-secondaryBackground md:px-36 md:py-[100px] flex flex-column items-center"
       >
         <img 
-          src="/images/sofa.png" 
+          src="/images/sofa.webp" 
           alt="Zonlicht valt op een moderne bank via grote kozijnen in de woonkamer"
           className="w-36 md:w-[400px] h-auto md:mr-[130px]"
         />
@@ -122,12 +125,13 @@ export default function Home() {
         >
           {/* Product 1 */}
           <a
+            area-label="Ontdek onze kunststof en aluminium kozijnen op maat"
             className="w-[375px] h-[625px] shadow-lg flex flex-col overflow-hidden group"
             href="/kozijnen"
           >
             <div className="flex overflow-hidden">
               <img
-                src="/images/kozijn.png"
+                src="/images/kozijn.webp"
                 alt="Kunststof kozijn op een woning, strak en onderhoudsvriendelijk"
                 className="w-full h-auto transition-transform duration-500 transform group-hover:scale-103"
               />
@@ -184,12 +188,13 @@ export default function Home() {
           </a>
           {/* Product 2 */}
           <a
+            area-label="Bekijk onze buitendeuren"
             className="w-[375px] h-[625px] shadow-lg flex flex-col overflow-hidden group"
             href="/buitendeuren"
           >
             <div className="flex overflow-hidden">
               <img
-                src="/images/voordeur.png"
+                src="/images/voordeur.webp"
                 alt="Stijlvolle rode voordeur met glas en metalen handgreep"
                 className="w-full h-auto transition-transform duration-500 transform group-hover:scale-103"
               />
@@ -246,12 +251,13 @@ export default function Home() {
           </a>
           {/* Product 3 */}
           <a
+            area-label="Bekijk onze rolluiken"
             className="w-[375px] h-[625px] shadow-lg flex flex-col overflow-hidden group"
             href="/rolluiken"
           >
             <div className="flex overflow-hidden">
               <img
-                src="/images/rolluiken.png"
+                src="/images/rolluiken.webp"
                 alt="Zwarte rolluiken gemonteerd op witte gevel van een vrijstaand huis"
                 className="w-full h-auto transition-transform duration-500 transform group-hover:scale-103"
               />
@@ -380,6 +386,7 @@ export default function Home() {
               <p className="text-secondary text-xl mt-4">Begin nu en geef je huis de perfecte uitstraling!</p>
             </div>
             <a
+              title="Ga naar de configurator"
               href="/configurator"
               className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-12 w-[225px]"
             >
@@ -399,7 +406,7 @@ export default function Home() {
 
           {/* Right Image */}
           <img
-            src="/images/huis.png"
+            src="/images/huis.webp"
             alt="Vrijstaand huis met glazen balkon en moderne kozijnen"
             className="w-36 md:w-[500px] h-auto"
           />

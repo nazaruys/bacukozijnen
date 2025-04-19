@@ -25,7 +25,10 @@ function StepsSection({product="Kozijnen"}) {
 
                 {/* Text below the circle and icon with 14px padding at the bottom */}
                 <p className="absolute bottom-[14px] left-[14px] right-0 text-lg text-gray-700">
-                    <a className="underline font-medium" href="/configurator">Stel je {product.toLowerCase()} zelf samen</a> en bereken de prijs.
+                    <a
+                        className="underline font-medium"
+                        href="/configurator">Stel je {product.toLowerCase()} zelf samen
+                    </a> en bereken de prijs.
                 </p>
             </div>
 

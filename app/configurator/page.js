@@ -26,6 +26,7 @@ function page(props) {
                 <div className="flex flex-row items-center justify-center mt-10 gap-x-5">
                     {/* Vraag offerte aan Button */}
                     <a
+                        title="Vraag een offerte aan"
                         href="#offerte"
                         className="cursor-pointer w-[200px] flex justify-center items-center bg-primary hover:bg-primaryDark text-lg text-white py-3 font-medium rounded-4xl transition-all duration-500"
                     >

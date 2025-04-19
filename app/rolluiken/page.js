@@ -18,6 +18,7 @@ export default function Rolluiken() {
 	]
 	return (
 		<div className="bg-background font-outfit">
+			<title>Maak je rolluiken op maat | BaCu Kozijnen</title>
 			{/* Navbar */}
 			<Navbar currentPage={"rolluiken"} />
 			{/* Main section */}
@@ -44,6 +45,8 @@ export default function Rolluiken() {
 					</p>
 					{/* Button */}
 					<a
+						aria-label="Start je berekening voor de configurator en ontvang een offerte op maat"
+  						title="Ga naar de configurator"
 						href="/configurator"
 						className="group flex justify-center items-center gap-2 bg-primary hover:bg-primaryDark text-lg text-white py-[10px] font-medium rounded-4xl transition-all transform duration-500 mt-16 w-[225px]"
 						>
@@ -62,7 +65,7 @@ export default function Rolluiken() {
 				</div>
 				{/* Right Image */}
 				<img
-					src="/images/rolluik-zwart.png"
+					src="/images/rolluik-zwart.webp"
 					alt="Zwarte rolluik op een witte muur voor een strakke, moderne uitstraling"
 					className="md:w-[490px] h-auto"
 				/>
@@ -74,7 +77,7 @@ export default function Rolluiken() {
 				className="bg-secondaryBackground md:px-36 flex flex-row items-center py-28"
 			>
 				<img
-					src="/images/rolluiken-huis.png"
+					src="/images/rolluiken-huis.webp"
 					alt="Moderne woning met zwarte rolluiken op een zwart geverfde gevel"
 					className="md:w-[515px] h-auto mr-24"
 				/>
@@ -116,7 +119,7 @@ export default function Rolluiken() {
 					</p>
 				</div>
 				<img
-					src="/images/rolluik-wit.png"
+					src="/images/rolluik-wit.webp"
 					alt="Witte rolluik op achtertuindeur voor extra privacy en zonwering"
 					className="md:w-[570px] h-auto ml-24"
 				/>
@@ -126,7 +129,7 @@ export default function Rolluiken() {
 				className="bg-secondaryBackground md:px-36 flex flex-row items-center py-28"
 			>
 				<img
-					src="/images/rolluiken-baksteen-huis.png"
+					src="/images/rolluiken-baksteen-huis.webp"
 					alt="Zwarte rolluiken op een bakstenen huis voor een stoere en moderne uitstraling"
 					className="md:w-[500px] h-auto mr-24"
 				/>

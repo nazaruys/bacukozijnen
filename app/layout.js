@@ -9,8 +9,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "BaCu Kozijnen",
-  description: "BaCu Kozijnen: Kiezen voor Kwaliteit en Duurzaamheid",
+  description: "BaCu Kozijnen biedt maatwerk kozijnen, rolluiken en buitendeuren van topkwaliteit. Duurzaam, stijlvol en uitstekend geïsoleerd, met betrouwbare service en eerlijke communicatie.",
 };
 
 export default function RootLayout({ children }) {
