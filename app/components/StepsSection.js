@@ -4,7 +4,7 @@ function StepsSection({ product = "Kozijnen" }) {
     return (
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-10 md:px-36 md:h-[220px] relative px-8 py-16">
             {/* Line across all steps (desktop only) */}
-            <div className="absolute top-1/2 left-0 w-full" style={{ borderTop: "0.5px solid #717171"}}></div>
+            <div className="absolute top-1/2 left-0 w-full md:block hidden" style={{ borderTop: "0.5px solid #717171"}}></div>
 
             {/* Step 1 */}
             <div className="rounded-lg md:w-[290px] w-full h-[130px] md:p-[14px] p-4 bg-white z-10 relative" style={{ border: "0.5px solid #717171" }}>

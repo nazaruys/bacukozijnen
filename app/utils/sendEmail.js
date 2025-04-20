@@ -2,7 +2,6 @@ import nodemailer from 'nodemailer';
 
 export async function sendEmail ({service, host, port, secure=true, from, from_email, from_password, to_email, subject, text}) {
     const transporter = nodemailer.createTransport({
-        service: service,
         host: host,
         port: port,
         secure: secure,

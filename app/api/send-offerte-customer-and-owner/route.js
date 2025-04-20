@@ -7,14 +7,12 @@ export async function POST(req) {
 
 	const owner_email = process.env.EMAIL_USER;
 	const owner_password = process.env.EMAIL_PASS;
-	const owner_service = process.env.EMAIL_SERVICE;
 	const owner_host = process.env.EMAIL_HOST;
 	const owner_port = process.env.EMAIL_PORT;
 	const owner_secure = process.env.EMAIL_SECURE === 'true';
 
 	// Send email to the owner
 	const ownerRespose = await sendEmail({
-		service: owner_service,
 		host: owner_host,
 		port: +owner_port,
 		secure: owner_secure,
@@ -43,7 +41,6 @@ export async function POST(req) {
 
 	// Send email to the customer
 	const customerRespose = await sendEmail({
-		service: owner_service,
 		host: owner_host,
 		port: owner_port,
 		secure: owner_secure,
