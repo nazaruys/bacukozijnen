@@ -15,7 +15,7 @@ export default function Home() {
       <ToastContainer />
       {/* Main */}
       <section
-        className="flex flex-row justify-between h-[600px] md:px-36 md:py-20"
+        className="flex flex-col md:flex-row justify-between md:h-[600px] px-4 py-10 md:px-36 md:py-20 gap-6"
         id="main"
         style={{
           backgroundImage: 'url("/images/main-background.webp")',
@@ -25,65 +25,49 @@ export default function Home() {
         }}
       >
         {/* Main container */}
-        <div 
-          className="md:w-[450px] bg-base/45 rounded-4xl backdrop-blur-sm md:px-9 md:pt-9 md:pb-7 flex flex-col"
-        >
-          <h1 className="text-5xl text-white font-medium leading-[1.4]">
+        <div className="w-full md:w-[450px] bg-base/45 rounded-4xl backdrop-blur-sm px-6 pt-6 pb-6 md:px-9 md:pt-9 md:pb-7 flex flex-col">
+          <h1 className="text-3xl md:text-5xl text-white font-medium leading-snug md:leading-[1.4]">
             Ontwerp je ideale kozijnen zelf!
           </h1>
+
           {/* Pros container */}
-          <div className='space-y-3 md:mt-5'>
-            {/* Pro 1 */}
-            <div className="flex flex-row items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.2" stroke="currentColor" className="size-6 text-[#41D872]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-              </svg>
-
-              <p className="text-white text-[16px] ml-3">Kozijnen inclusief montage</p>
-            
-            </div>
-            {/* Pro 2 */}
-            <div className="flex flex-row items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.2" stroke="currentColor" className="size-6 text-[#41D872]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-              </svg>
-
-              <p className="text-white text-[16px] ml-3">Duurzaam en makkelijk in onderhoud</p>
-            
-            </div>
-            {/* Pro 3 */}
-            <div className="flex flex-row items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.2" stroke="currentColor" className="size-6 text-[#41D872]">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-              </svg>
-
-              <p className="text-white text-[16px] ml-3">Offerte op maat, zelf samengesteld</p>
-            
-            </div>
+          <div className="space-y-3 mt-4 md:mt-5">
+            {[
+              'Kozijnen inclusief montage',
+              'Duurzaam en makkelijk in onderhoud',
+              'Offerte op maat, zelf samengesteld',
+            ].map((text, i) => (
+              <div className="flex flex-row items-center" key={i}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.2" stroke="currentColor" className="size-6 text-[#41D872]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+                <p className="text-white text-[16px] ml-3">{text}</p>
+              </div>
+            ))}
           </div>
+
           <a
             title="Ga naar de configurator"
             href="/configurator"
-            className="flex justify-center items-center bg-primary text-lg text-white w-full md:py-3 font-medium rounded-4xl  transition-all transform duration-500 hover:bg-primaryDark mt-auto"
+            className="flex justify-center items-center bg-primary md:text-lg text-white w-full py-3 font-medium rounded-4xl transition-all transform duration-500 hover:bg-primaryDark mt-6 md:mt-auto"
           >
             Begin met samenstellen
           </a>
         </div>
+
         {/* Review score container */}
-        <div 
-          className="flex justify-center items-center md:w-[465px] md:h-[65px] bg-base/45 rounded-4xl backdrop-blur-sm mt-auto"
-        >
+        <div className="w-full md:w-[465px] md:h-[65px] bg-base/45 rounded-4xl backdrop-blur-sm flex justify-center items-center">
           <a
             title="Ga naar Google Maps"
             className="flex flex-row justify-center items-center"
             href="https://maps.app.goo.gl/j2vAT6gt1CsqoBrA7"
             target="_blank"
           >
-            <span className="text-lg text-white">Klanten geven ons een 5/5</span>
+            <span className="md:text-lg text-white">Klanten geven ons een 5/5</span>
             <img
               src="/logos/google-reviews.webp"
               alt="Google Reviews logo met vijf sterren beoordeling voor kozijnenbedrijf"
-              className="w-4 md:w-28 h-auto mr-3"
+              className="w-20 md:w-28 h-auto ml-2 mr-3"
             />
           </a>
         </div>
