@@ -228,7 +228,7 @@ const Navbar = ({ currentPage }) => {
               <li key={item.slug} className="border-t border-secondary">
                 <a
                   href={`/${item.slug}`}
-                  className={`block py-3 transition-colors hover:bg-background ${currentPage === item.slug ? 'bg-gray-600' : ''}`}
+                  className={`block py-3 transition-colors hover:bg-background ${currentPage === item.slug ? 'bg-background' : ''}`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}
