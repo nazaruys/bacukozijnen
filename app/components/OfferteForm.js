@@ -119,193 +119,190 @@ function OfferteForm() {
 	return (
 		<section
 			id="offerte"
-			className="bg-secondaryBackground md:px-[250px] flex flex-row py-16"
-		>
-			{/* Modern House Image */}
+			className="bg-secondaryBackground px-12 md:px-[250px] flex flex-col md:flex-row py-16"
+			>
+			{/* Modern House Image (only on desktop) */}
 			<img
 				src="/images/moderne-huis.webp"
 				alt="Minimalistisch wit huis met moderne voordeur en kozijnen"
-				className="w-36 md:w-[436px] h-auto mr-24"
+				className="hidden md:block w-36 md:w-[436px] h-auto mr-24"
 			/>
 			{/* Form Container */}
-			<div
-				className="flex flex-col"
-			>
+			<div className="flex flex-col w-full">
 				{/* Title */}
 				<span className="text-4xl font-semibold">
-					Ontvang gratis je offerte
+				Ontvang gratis je offerte
 				</span>
 				{/* Subtitle */}
-				<p
-					className='text-lg text-secondary mt-1 mb-5'
-				>
-					Vul uw gegevens in en wij nemen snel contact met u op voor een gratis offerte!
+				<p className='text-lg text-secondary mt-1 mb-5'>
+				Vul uw gegevens in en wij nemen snel contact met u op voor een gratis offerte!
 				</p>
 				{/* Form */}
 				<Formik
-					initialValues={initialValues}
-					validationSchema={validationSchema}
-					onSubmit={handleSubmit}
+				initialValues={initialValues}
+				validationSchema={validationSchema}
+				onSubmit={handleSubmit}
 				>
-					{({ errors, touched }) => (
+				{({ errors, touched }) => (
 					<Form className="flex flex-col gap-4 flex-grow">
-						{/* First Line */}
-						<div className="flex flex-row gap-4">
-							<div className="flex flex-col w-full">
-								<label className="text-xs text-secondary">Voornaam</label>
-								<div className="relative">
-									<Field
-										name="voornaam"
-										type="text"
-										className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
-											touched.voornaam && errors.voornaam
-												? 'border-primary border-[1px]' // Apply primary border if there's an error
-												: 'border-[#909090]' // Default border color
-										}`}
-									/>
-									<ErrorMessage
-										name="voornaam"
-										component="div"
-										className="text-red-500 text-xs absolute right-0 top-full mt-1"
-									/>
-								</div>
-							</div>
-							<div className="flex flex-col w-full">
-								<label className="text-xs text-secondary">Achternaam*</label>
-								<div className="relative">
-									<Field
-										name="achternaam"
-										type="text"
-										className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
-											touched.achternaam && errors.achternaam
-												? 'border-primary border-[1px]' // Apply primary border if there's an error
-												: 'border-[#909090]' // Default border color
-										}`}
-									/>
-									<ErrorMessage
-										name="achternaam"
-										component="div"
-										className="text-red-500 text-xs absolute right-0 top-full mt-1"
-									/>
-								</div>
-							</div>
-						</div>
-						{/* Second Line */}
-						<div className="flex flex-row gap-4">
+					{/* First Line */}
+					<div className="flex flex-row gap-4">
 						<div className="flex flex-col w-full">
-								<label className="text-xs text-secondary">Adres*</label>
-								<div className="relative">
-									<Field
-										name="adres"
-										type="text"
-										className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
-											touched.adres && errors.adres
-												? 'border-primary border-[1px]' // Apply primary border if there's an error
-												: 'border-[#909090]' // Default border color
-										}`}
-									/>
-									<ErrorMessage
-										name="adres"
-										component="div"
-										className="text-red-500 text-xs absolute right-0 top-full mt-1"
-									/>
-								</div>
-							</div>
-							<div className="flex flex-col w-full">
-								<label className="text-xs text-secondary">Plaats*</label>
-								<div className="relative">
-									<Field
-										name="plaats"
-										type="text"
-										className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
-											touched.plaats && errors.plaats
-												? 'border-primary border-[1px]' // Apply primary border if there's an error
-												: 'border-[#909090]' // Default border color
-										}`}
-									/>
-									<ErrorMessage
-										name="plaats"
-										component="div"
-										className="text-red-500 text-xs absolute right-0 top-full mt-1"
-									/>
-								</div>
-							</div>
-						</div>
-						{/* Third Line */}
-						<div className="flex flex-col w-full">
-							<label className="text-xs text-secondary">Telefoonnummer*</label>
-							<div className="relative">
-									<Field
-										name="telefoonnummer"
-										type="text"
-										className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
-											touched.telefoonnummer && errors.telefoonnummer
-												? 'border-primary border-[1px]' // Apply primary border if there's an error
-												: 'border-[#909090]' // Default border color
-										}`}
-									/>
-									<ErrorMessage
-										name="telefoonnummer"
-										component="div"
-										className="text-red-500 text-xs absolute right-0 top-full mt-1"
-									/>
-								</div>
-						</div>
-						{/* Fourth Line */}
-						<div className="flex flex-col w-full">
-							<label className="text-xs text-secondary">E-mailadres*</label>
-							<div className="relative">
-									<Field
-										name="email"
-										type="text"
-										className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
-											touched.email && errors.email
-												? 'border-primary border-[1px]' // Apply primary border if there's an error
-												: 'border-[#909090]' // Default border color
-										}`}
-									/>
-									<ErrorMessage
-										name="email"
-										component="div"
-										className="text-red-500 text-xs absolute right-0 top-full mt-1"
-									/>
-								</div>
-						</div>
-						{/* Fifth Line */}
-						<div className="flex flex-col w-full">
-							<label className="text-xs text-secondary">Vragen en/of opmerkingen</label>
-							<div className="relative">
-								<Field
-									name="vragen"
-									type="text"
-									className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
-										touched.vragen && errors.vragen
-											? 'border-primary border-[1px]' // Apply primary border if there's an error
-											: 'border-[#909090]' // Default border color
-									}`}
-								/>
-								<ErrorMessage
-									name="vragen"
-									component="div"
-									className="text-red-500 text-xs absolute right-0 top-full mt-1"
-								/>
-							</div>
-						</div>
-						{/* Submit Button */}
-						<button
-							type="submit"
-							disabled={isLoading}
-							className={`cursor-pointer mt-auto w-[135px] group flex justify-center items-center bg-primary hover:bg-primaryDark text-[16px] text-white py-[9px] font-medium rounded-4xl transition-all transform duration-500 ${
-								isLoading ? 'opacity-70' : ''
+						<label className="text-xs text-secondary">Voornaam</label>
+						<div className="relative">
+							<Field
+							name="voornaam"
+							type="text"
+							className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
+								touched.voornaam && errors.voornaam
+								? 'border-primary border-[1px]'
+								: 'border-[#909090]'
 							}`}
-						>
-							Verstuur
-						</button>
+							/>
+							<ErrorMessage
+							name="voornaam"
+							component="div"
+							className="text-red-500 text-xs absolute right-0 top-full mt-1"
+							/>
+						</div>
+						</div>
+						<div className="flex flex-col w-full">
+						<label className="text-xs text-secondary">Achternaam*</label>
+						<div className="relative">
+							<Field
+							name="achternaam"
+							type="text"
+							className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
+								touched.achternaam && errors.achternaam
+								? 'border-primary border-[1px]'
+								: 'border-[#909090]'
+							}`}
+							/>
+							<ErrorMessage
+							name="achternaam"
+							component="div"
+							className="text-red-500 text-xs absolute right-0 top-full mt-1"
+							/>
+						</div>
+						</div>
+					</div>
+					{/* Second Line */}
+					<div className="flex flex-row gap-4">
+						<div className="flex flex-col w-full">
+						<label className="text-xs text-secondary">Adres*</label>
+						<div className="relative">
+							<Field
+							name="adres"
+							type="text"
+							className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
+								touched.adres && errors.adres
+								? 'border-primary border-[1px]'
+								: 'border-[#909090]'
+							}`}
+							/>
+							<ErrorMessage
+							name="adres"
+							component="div"
+							className="text-red-500 text-xs absolute right-0 top-full mt-1"
+							/>
+						</div>
+						</div>
+						<div className="flex flex-col w-full">
+						<label className="text-xs text-secondary">Plaats*</label>
+						<div className="relative">
+							<Field
+							name="plaats"
+							type="text"
+							className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
+								touched.plaats && errors.plaats
+								? 'border-primary border-[1px]'
+								: 'border-[#909090]'
+							}`}
+							/>
+							<ErrorMessage
+							name="plaats"
+							component="div"
+							className="text-red-500 text-xs absolute right-0 top-full mt-1"
+							/>
+						</div>
+						</div>
+					</div>
+					{/* Third Line */}
+					<div className="flex flex-col w-full">
+						<label className="text-xs text-secondary">Telefoonnummer*</label>
+						<div className="relative">
+						<Field
+							name="telefoonnummer"
+							type="text"
+							className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
+							touched.telefoonnummer && errors.telefoonnummer
+								? 'border-primary border-[1px]'
+								: 'border-[#909090]'
+							}`}
+						/>
+						<ErrorMessage
+							name="telefoonnummer"
+							component="div"
+							className="text-red-500 text-xs absolute right-0 top-full mt-1"
+						/>
+						</div>
+					</div>
+					{/* Fourth Line */}
+					<div className="flex flex-col w-full">
+						<label className="text-xs text-secondary">E-mailadres*</label>
+						<div className="relative">
+						<Field
+							name="email"
+							type="text"
+							className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
+							touched.email && errors.email
+								? 'border-primary border-[1px]'
+								: 'border-[#909090]'
+							}`}
+						/>
+						<ErrorMessage
+							name="email"
+							component="div"
+							className="text-red-500 text-xs absolute right-0 top-full mt-1"
+						/>
+						</div>
+					</div>
+					{/* Fifth Line */}
+					<div className="flex flex-col w-full">
+						<label className="text-xs text-secondary">Vragen en/of opmerkingen</label>
+						<div className="relative">
+						<Field
+							name="vragen"
+							type="text"
+							className={`bg-white border-[0.1px] h-[45px] px-2 py-1 mt-1 w-full ${
+							touched.vragen && errors.vragen
+								? 'border-primary border-[1px]'
+								: 'border-[#909090]'
+							}`}
+						/>
+						<ErrorMessage
+							name="vragen"
+							component="div"
+							className="text-red-500 text-xs absolute right-0 top-full mt-1"
+						/>
+						</div>
+					</div>
+					{/* Submit Button */}
+					<button
+						type="submit"
+						disabled={isLoading}
+						className={`cursor-pointer mt-8 md:mt-auto w-[135px] group flex justify-center items-center bg-primary hover:bg-primaryDark text-[16px] text-white py-[9px] font-medium rounded-4xl transition-all transform duration-500 ${
+						isLoading ? 'opacity-70' : ''
+						}`}
+					>
+						Verstuur
+					</button>
 					</Form>
-					)}
+				)}
 				</Formik>
 			</div>
-		</section>
+			</section>
+
 	);
 }
 

@@ -19,7 +19,7 @@ function ReviewsSection(props) {
             className="px-4 md:px-36 w-full h-full py-24 text-base bg-secondaryBackground relative"
             id="recensies"
         >
-            <h2 className="text-4xl md:text-4xl md:font-semibold text-center mb-16">
+            <h2 className="text-2xl md:text-4xl font-semibold text-center mb-16">
                 Echte ervaringen van echte klanten.<br/>Lees zelf waarom ze voor BaCu kozen.
             </h2>
             <div className="relative flex items-center">
