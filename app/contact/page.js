@@ -11,43 +11,33 @@ export default function Contact() {
 			{/* Navbar */}
 			<Navbar currentPage={"contact"} />
 			{/* Main section */}
-			<section
-				className="md:px-36 flex flex-row items-center justify-between py-16"
-			>
+			<section className="px-6 md:px-36 flex flex-col-reverse md:flex-row items-center justify-between py-16 gap-10 md:gap-0">
 				{/* Left Column */}
-				<div
-					className="flex flex-col w-1/2"
-				>
+				<div className="flex flex-col w-full md:w-1/2">
 					{/* Title */}
-					<h1
-						className="text-4xl font-semibold text-black"
-					>
-						Neem contact met ons op
+					<h1 className="text-4xl font-semibold text-black">
+					Neem contact met ons op
 					</h1>
 					{/* Subtitle */}
-					<p
-						className="flex flex-col gap-y-5 mt-7 text-secondary text-xl"
-					>
-						<span>Heb je vragen over onze kozijnen, advies nodig of wil je een afspraak maken voor het inmeten? Neem gerust contact met ons op en we helpen je graag verder!</span>
-						<span>Werkgebied: ongeveer binnen 50 km van Almere</span>
-						<span>Openingstijden:</span>
-						<ul className='list-disc ml-12'>
-							<li>Ma – Vr: 09:00 – 18:00</li>
-							<li>Za – Zo: Gesloten</li>
-						</ul>
-							
-						
+					<p className="flex flex-col gap-y-5 mt-7 text-secondary text-xl">
+					<span>Heb je vragen over onze kozijnen, advies nodig of wil je een afspraak maken voor het inmeten? Neem gerust contact met ons op en we helpen je graag verder!</span>
+					<span>Werkgebied: ongeveer binnen 50 km van Almere</span>
+					<span>Openingstijden:</span>
+					<ul className="list-disc ml-12">
+						<li>Ma – Vr: 09:00 – 18:00</li>
+						<li>Za – Zo: Gesloten</li>
+					</ul>
 					</p>
 				</div>
 				{/* Right Image */}
 				<img
 					src="/images/beige-kozijn.webp"
 					alt="Beige kozijnen voor een warme en natuurlijke uitstraling van het huis"
-					className="md:w-[435px] h-auto"
+					className="w-full md:w-[435px] h-auto"
 				/>
-			</section>
+				</section>
 			{/* Contact methods */}
-			<section className="flex justify-between md:px-36 py-20">
+			<section className="px-6 flex flex-col md:flex-row justify-between md:px-36 py-20 gap-10 md:gap-0 items-center">
 				{/* First */}
 				<a
 					className="w-[370px] h-[200px] bg-white rounded-[10px] flex flex-col items-center justify-between p-6"
