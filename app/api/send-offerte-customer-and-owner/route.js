@@ -49,10 +49,64 @@ export async function POST(req) {
 		from_password: owner_password,
 		to_email: email,
 		subject: "Bedankt voor je offerte aanvraag",
-		text: "Hallo " + `${voornaam ? voornaam : 'Mw. of dhr.'} ${achternaam},\n\n` +
-		"Bedankt voor je offerte aanvraag bij BaCu Kozijnen! We hebben je aanvraag ontvangen en zullen deze zo snel mogelijk verwerken.\n\n" +
-		"Met vriendelijke groet,\n" +
-		"BaCu Kozijnen"
+		html: `
+			<!DOCTYPE html>
+			<html lang="nl">
+			<head>
+			<meta charset="UTF-8">
+			<title>Offerte Bevestiging</title>
+			<style>
+				body {
+					font-family: Arial, sans-serif;
+					color: #333;
+					padding: 20px;
+					line-height: 1.6;
+					font-size: 16px;
+				}
+				.container {
+					max-width: 600px;
+					margin: auto;
+					background-color: #ffffff;
+					padding: 30px;
+					border-radius: 8px;
+					border: 1px solid #eee;
+				}
+				.footer {
+					margin-top: 40px;
+					font-size: 13px;
+					color: #999;
+				}
+				a {
+					color: #007BFF;
+				}
+			</style>
+			</head>
+			<body>
+			<div class="container">
+				<a href="https://www.bacukozijnen.nl">
+					<img src="https://www.bacukozijnen.nl/logos/BaCu-full.webp" alt="BaCu Kozijnen Logo" style="display: block; margin: 0 auto 20px; max-width: 220px;">
+				</a>
+		
+				<p>Beste ${voornaam} ${achternaam},</p>
+		
+				<p>Bedankt voor je interesse in <strong>BaCu Kozijnen</strong> en voor het invullen van ons offerteformulier.</p>
+		
+				<p>We hebben je aanvraag goed ontvangen. Wij nemen binnen <strong>één werkdag</strong> contact met je op om je wensen en de mogelijkheden te bespreken.</p>
+		
+				<p>Heb je in de tussentijd vragen of aanvullende informatie? Dan kun je altijd reageren op deze e-mail of een kijkje nemen op onze website.</p>
+		
+				<p>Met vriendelijke groet,</p>
+		
+				<p>Het team van BaCu Kozijnen<br/>
+				<a href="https://www.bacukozijnen.nl">www.bacukozijnen.nl</a></p>
+		
+				<div class="footer">
+					Je ontvangt deze e-mail omdat je een aanvraag hebt gedaan bij BaCu Kozijnen.
+				</div>
+			</div>
+			</body>
+			</html>
+		`,
 	});
 
 	if (customerRespose.statusCode !== 200) {
