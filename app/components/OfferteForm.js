@@ -119,7 +119,7 @@ function OfferteForm() {
 	return (
 		<section
 			id="offerte"
-			className="bg-secondaryBackground px-12 md:px-[250px] flex flex-col md:flex-row py-16"
+			className="bg-secondaryBackground px-6 md:px-[250px] flex flex-col md:flex-row py-12"
 			>
 			{/* Modern House Image (only on desktop) */}
 			<img

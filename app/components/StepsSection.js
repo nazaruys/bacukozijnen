@@ -47,7 +47,7 @@ function StepsSection({ product = "Kozijnen" }) {
                         </defs>
                     </svg>
                 </div>
-                <p className="w-3/4 md:w-full absolute bottom-[14px] left-[14px] right-[14px] text-lg text-gray-700">
+                <p className="w-7/8 md:w-full absolute bottom-[14px] left-[14px] right-[14px] text-lg text-gray-700">
                     Binnen <span className="underline font-medium">24 uur</span> bevestigen wij uw bestelling per telefoon of e-mail.
                 </p>
             </div>

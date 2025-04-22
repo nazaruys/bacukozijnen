@@ -2,7 +2,7 @@ import React from 'react';
 
 function ReviewCard({ avatarPath, name, text }) {
   return (
-    <div className="min-w-[300px] max-w-[90vw] sm:min-w-[400px] h-auto sm:h-[250px] rounded-lg bg-white p-6 m-2 sm:m-3 shadow-md text-black">
+    <div className="min-w-[270px] max-w-[90vw] sm:min-w-[400px] h-auto sm:h-[250px] rounded-lg bg-white p-6 m-2 sm:m-3 shadow-md text-black">
       <div className="flex flex-row items-center mb-4 justify-between">
         <div
             className="flex flex-row items-center"

@@ -16,10 +16,10 @@ function ReviewsSection(props) {
 
     return (
         <section
-            className="px-4 md:px-36 w-full h-full py-24 text-base bg-secondaryBackground relative"
+            className="px-6 md:px-36 w-full h-full py-12 md:py-24 text-base bg-secondaryBackground relative"
             id="recensies"
         >
-            <h2 className="text-2xl md:text-4xl font-semibold text-center mb-16">
+            <h2 className="text-xl md:text-4xl font-semibold text-center mb-16">
                 Echte ervaringen van echte klanten.<br/>Lees zelf waarom ze voor BaCu kozen.
             </h2>
             <div className="relative flex items-center">
@@ -58,7 +58,7 @@ function ReviewsSection(props) {
                 {/* Scrollable Reviews */}
                 <div
                     id="reviews-container"
-                    className="flex overflow-x-auto snap-x snap-mandatory gap-32 w-full px-12 md:px-32 scrollbar-hide"
+                    className="flex overflow-x-auto snap-x snap-mandatory gap-[136px] sm:gap-32 w-full px-6 md:px-32 scrollbar-hide"
                     style={{ scrollSnapType: 'x mandatory' }}
                 >
                     {reviews.map((review, index) => (

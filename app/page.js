@@ -62,7 +62,7 @@ export default function Home() {
         </div>
 
         {/* Review score container - only position at bottom on desktop */}
-        <div className="w-full md:w-[465px] bg-base/45 rounded-4xl backdrop-blur-sm flex justify-center items-center mt-6 md:absolute md:bottom-20 md:right-36">
+        <div className="w-full md:w-[465px] py-2 md:py-0 bg-base/45 rounded-4xl backdrop-blur-sm flex justify-center items-center mt-6 md:absolute md:bottom-20 md:right-36">
           <a
             title="Ga naar Google Maps"
             className="flex flex-row justify-center items-center"
@@ -105,8 +105,8 @@ export default function Home() {
         </div>
       </section>
       {/* Products */}
-      <section className="bg-background px-5 md:px-36 py-16 md:py-20">
-        <h1 className="font-semibold text-[32px] mb-14">
+      <section className="bg-background px-6 md:px-36 py-12 md:py-20">
+        <h1 className="font-semibold text-3xl md:text-[32px] mb-14">
           Vind de perfecte oplossing voor jouw huis
         </h1>
         <div className="flex flex-col md:flex-row flex-wrap gap-10 justify-between items-center">
@@ -194,12 +194,12 @@ export default function Home() {
         </div>
       </section>
       {/* Why choose us? */}
-      <section className="min-h-[514px] px-10 py-16 md:py-0 md:px-36 flex flex-col justify-center">
-        <h1 className="font-semibold text-4xl text-center md:text-left">
+      <section className="min-h-[514px] px-6 py-12 md:py-0 md:px-36 flex flex-col justify-center">
+        <h1 className="font-semibold text-3xl md:text-4xl text-center md:text-left">
           Waarom voor BaCu Kozijnen kiezen?
         </h1>
 
-        <div className="flex flex-wrap justify-center md:justify-between items-start mt-14 gap-6">
+        <div className="flex flex-wrap justify-center md:justify-between items-start mt-14 gap-10 md:gap-6">
           {/* Card 1 */}
           <div className="flex flex-col w-full sm:w-[350px] bg-secondaryBackground p-5">
             {/* SVG */}
@@ -255,11 +255,11 @@ export default function Home() {
       {/* Reviews */}
       <ReviewsSection />
       {/* CTA */}
-      <section className="px-12 md:px-[250px] flex flex-col md:flex-row items-center justify-between py-24">
+      <section className="px-6 md:px-[250px] flex flex-col md:flex-row items-center justify-between py-12 md:py-24">
         {/* Left Column */}
         <div className="flex flex-col justify-between w-full md:w-[500px]">
           <div>
-            <h1 className="font-semibold text-3xl mb-4">Ontwerp jouw perfecte kozijnen</h1>
+            <h1 className="font-semibold text-3xl mb-6 md:mb-4">Ontwerp jouw perfecte kozijnen</h1>
             <p className="text-secondary text-xl">
               Stel moeiteloos jouw ideale kunststof kozijnen samen met onze configurator! Kies afmetingen, kleur, stijl en extra opties, en zie direct de prijs. Hulp nodig? Ons team staat altijd klaar.
             </p>
