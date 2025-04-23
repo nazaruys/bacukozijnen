@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.bacukozijnen.nl
+
+# Sitemaps
+Sitemap: https://www.bacukozijnen.nl/sitemap.xml
