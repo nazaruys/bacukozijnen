@@ -13,7 +13,7 @@ export default function OverOns() {
       	{/* Navbar */}
 				<Navbar currentPage={"over-ons"} />
 				{/* Main section */}
-				<section className="bg-secondaryBackground px-6 md:px-36 flex flex-col-reverse md:flex-row items-center justify-between py-16 md:py-16">
+				<section className="bg-secondaryBackground px-6 md:px-36 flex flex-col-reverse md:flex-row items-center justify-between py-12 md:py-16">
 					{/* Left Column */}
 					<div className="flex flex-col w-full md:w-1/2">
 						{/* Title */}
@@ -54,7 +54,7 @@ export default function OverOns() {
 					/>
 				</section>
 				{/* Our goal */}
-				<section className="p-6 py-16 bg-background md:px-36 md:py-[100px] flex flex-col md:flex-row items-center">
+				<section className="px-6 py-12 bg-background md:px-36 md:py-[100px] flex flex-col md:flex-row items-center">
 					<img 
 						src="/images/sofa.webp" 
 						alt="Zonlicht valt op een moderne bank via grote kozijnen in de woonkamer" 
@@ -73,7 +73,7 @@ export default function OverOns() {
 				</section>
 				{/* Our configurator */}
 				<section
-					className="bg-background px-6 md:px-36 flex flex-col md:flex-row-reverse justify-between items-center py-28 gap-10 md:gap-0"
+					className="bg-background px-6 md:px-36 flex flex-col md:flex-row-reverse justify-between items-center py-12 md:py-28 gap-10 md:gap-0"
 				>
 					<img
 						src="/images/kleuren-bacu.webp"
@@ -100,11 +100,11 @@ export default function OverOns() {
 				{/* Steps */}
 				<StepsSection />
 				{/* CTA */}
-				<section className="px-6 py-16 bg-background md:px-36 md:py-[100px] flex flex-col md:flex-row items-center gap-10 md:gap-0">
+				<section className="px-6 py-12 bg-background md:px-36 md:py-[100px] flex flex-col md:flex-row items-center gap-10 md:gap-0">
 					<img 
 						src="/images/huis-2-verdiepingen.webp" 
 						alt="Nederlands huis met rolluiken, kozijnen en een moderne voordeur voor een eigentijdse uitstraling"
-						className="w-full md:max-w-[500px] h-auto object-cover md:mr-[130px] rounded-xl mb-6 md:mb-0"
+						className="w-full md:max-w-[500px] h-auto object-cover md:mr-[130px] rounded-xl"
 					/>
 					<div className="h-full">
 						<h1 className="text-4xl font-semibold mb-8">

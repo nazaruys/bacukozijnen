@@ -22,7 +22,7 @@ export default function Buitendeuren() {
 			{/* Navbar */}
 			<Navbar currentPage={"buitendeuren"} />
 			{/* Main section */}
-			<section className="flex flex-col-reverse md:flex-row items-center justify-between py-16 px-4 md:px-36 gap-10">
+			<section className="flex flex-col-reverse md:flex-row items-center justify-between py-12 md:py-16 px-6 md:px-36 gap-10">
 				{/* Left Column */}
 				<div className="flex flex-col w-full md:w-1/2">
 					{/* Title */}
@@ -66,17 +66,17 @@ export default function Buitendeuren() {
 			{/* Steps */}
 			<StepsSection product={"Buitendeur"} />
 			{/* Image + Text 1 */}
-			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-28 px-4 md:px-36 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 				<img
 					src="/images/deur-zwart.webp"
 					alt="Strakke zwarte buitendeur met modern design en matte afwerking"
-					className="md:w-[515px] h-auto mb-6 md:mb-0 md:mr-24"
+					className="md:w-[515px] h-auto md:mr-24"
 				/>
 				<div className="flex flex-col">
 					<h2 className="text-3xl font-semibold text-black">
 						Voordelen van buitendeuren
 					</h2>
-					<p className="mt-3 text-secondary text-xl">
+					<p className="mt-6 md:mt-3 text-secondary text-xl">
 						Buitendeuren bieden talloze voordelen voor jouw woning. Dankzij de uitstekende isolerende eigenschappen van onze deuren profiteer je van aanzienlijke energiebesparingen: houd warmte binnen in de winter en buiten in de zomer, wat resulteert in lagere energiekosten.
 						<br /><br />
 						Onze buitendeuren zijn volledig onderhoudsvrij. Ze blijven er jarenlang als nieuw uitzien, zonder dat je hoeft te schrobben, verven of repareren. Dit bespaart niet alleen tijd, maar ook extra kosten op de lange termijn.
@@ -85,34 +85,34 @@ export default function Buitendeuren() {
 			</section>
 
 			{/* Image + Text 2 */}
-			<section className="bg-secondaryBackground flex flex-col-reverse md:flex-row justify-between items-center py-28 px-4 md:px-36 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col-reverse md:flex-row justify-between items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 				<div className="flex flex-col">
 					<h2 className="text-3xl font-semibold text-black">
 						Sterke & Duurzame Buitendeuren
 					</h2>
-					<p className="mt-3 text-secondary text-xl">
+					<p className="mt-6 md:mt-3 text-secondary text-xl">
 						Buitendeuren van BaCu Kozijnen staan voor stevigheid en duurzaamheid. In tegenstelling tot houten deuren, die kunnen kromtrekken, barsten of rotten door vocht en temperatuurschommelingen, blijven onze deuren jarenlang in topconditie. Ze zijn bestand tegen alle weersomstandigheden en bieden optimale veiligheid voor jouw woning.
 					</p>
 				</div>
 				<img
 					src="/images/deur-met-licht.webp"
 					alt="Buitendeur met glaspanelen waar zacht licht van lampen doorheen valt"
-					className="md:w-[570px] h-auto mt-6 md:mt-0 md:ml-24"
+					className="md:w-[570px] h-auto md:ml-24"
 				/>
 			</section>
 
 			{/* Image + Text 3 */}
-			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-28 px-4 md:px-36 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 				<img
 					src="/images/deur-ramen.webp"
 					alt="Voordeur met vierkante ramen en stalen frame voor extra licht en stijl"
-					className="md:w-[500px] h-auto mb-6 md:mb-0 md:mr-24"
+					className="md:w-[500px] h-auto md:mr-24"
 				/>
 				<div className="flex flex-col">
 					<h2 className="text-3xl font-semibold text-black">
 						Je buitendeur op maat
 					</h2>
-					<p className="mt-3 text-secondary text-xl">
+					<p className="mt-6 md:mt-3 text-secondary text-xl">
 						Bij BaCu Kozijnen maak je eenvoudig jouw ideale kunststof deur. Met onze online configurator kies je uit verschillende kleuren, glasopties en afwerkingen – en krijg je direct een prijsindicatie.
 						<br /><br />
 						Kom je er niet uit? Onze specialisten helpen je graag met advies en maatwerk. Wij staan voor kwaliteit, transparantie en gemak, zodat jij moeiteloos de perfecte deur met stevig kunststof kozijn vindt.

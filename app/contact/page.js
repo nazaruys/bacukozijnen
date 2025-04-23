@@ -11,12 +11,12 @@ export default function Contact() {
 			{/* Navbar */}
 			<Navbar currentPage={"contact"} />
 			{/* Main section */}
-			<section className="px-6 md:px-36 flex flex-col-reverse md:flex-row items-center justify-between py-16 gap-10 md:gap-0">
+			<section className="px-6 md:px-36 flex flex-col-reverse md:flex-row items-center justify-between py-12 md:py-16 gap-10 md:gap-0">
 				{/* Left Column */}
 				<div className="flex flex-col w-full md:w-1/2">
 					{/* Title */}
 					<h1 className="text-4xl font-semibold text-black">
-					Neem contact met ons op
+						Neem contact met ons op
 					</h1>
 					{/* Subtitle */}
 					<p className="flex flex-col gap-y-5 mt-7 text-secondary text-xl">
@@ -37,10 +37,10 @@ export default function Contact() {
 				/>
 				</section>
 			{/* Contact methods */}
-			<section className="px-6 flex flex-col md:flex-row justify-between md:px-36 py-20 gap-10 md:gap-0 items-center">
+			<section className="px-8 flex flex-col md:flex-row justify-between md:px-36 py-16 md:py-20 gap-10 md:gap-0 items-center">
 				{/* First */}
 				<a
-					className="w-[370px] h-[200px] bg-white rounded-[10px] flex flex-col items-center justify-between p-6"
+					className="w-full md:w-[370px] h-[200px] bg-white rounded-[10px] flex flex-col items-center justify-between p-6"
 					style={{ border: "0.5px solid #717171" }}
 					href="https://api.whatsapp.com/send/?phone=31614438309"
 					target="_blank"
@@ -61,7 +61,7 @@ export default function Contact() {
 				</a>
 				{/* Second */}
 				<a
-					className="w-[370px] h-[200px] bg-white rounded-[10px] flex flex-col items-center justify-between p-6"
+					className="w-full md:w-[370px] h-[200px] bg-white rounded-[10px] flex flex-col items-center justify-between p-6"
 					style={{ border: "0.5px solid #717171" }}
 					href="tel:0362340070"
 					target="_blank"
@@ -75,7 +75,7 @@ export default function Contact() {
 				</a>
 				{/* Third */}
 				<a
-					className="w-[370px] h-[200px] bg-white rounded-[10px] flex flex-col items-center justify-between p-6"
+					className="w-full md:w-[370px] h-[200px] bg-white rounded-[10px] flex flex-col items-center justify-between p-6"
 					style={{ border: "0.5px solid #717171" }}
 					href="mailto:info@bacukozijnen.nl"
 					target="_blank"

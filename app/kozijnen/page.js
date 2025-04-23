@@ -23,7 +23,7 @@ export default function Kozijnen() {
 			{/* Navbar */}
 			<Navbar currentPage={"kozijnen"} />
 			{/* Main section */}
-			<section className="flex flex-col-reverse md:flex-row items-center justify-between py-16 px-4 md:px-36 gap-10">
+			<section className="flex flex-col-reverse md:flex-row items-center justify-between py-12 md:py-16 px-6 md:px-36 gap-10">
 				{/* Left Column */}
 				<div className="flex flex-col w-full md:w-1/2">
 					{/* Title */}
@@ -67,7 +67,7 @@ export default function Kozijnen() {
 			{/* Steps */}
 			<StepsSection product={"Kozijnen"} />
 			{/* Image + Text 1 */}
-			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-28 px-4 md:px-36 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 				<img
 					src="/images/kozijn-3-ramen.webp"
 					alt="Kozijn met drie ramen, ideaal voor veel natuurlijk licht in een woonkamer"
@@ -77,7 +77,7 @@ export default function Kozijnen() {
 					<h2 className="text-3xl font-semibold text-black">
 					De unieke voordelen van kozijnen
 					</h2>
-					<p className="mt-3 text-secondary text-xl">
+					<p className="mt-6 md:mt-3 text-secondary text-xl">
 					Kunststof en aluminium kozijnen onderscheiden zich door hun lange levensduur en minimale onderhoud. Ze zijn bestand tegen alle weersomstandigheden zonder te verkleuren of te vervormen. Dankzij hun hoge isolatiewaarde zorgen ze voor een energiezuinig en comfortabel binnenklimaat, waardoor stookkosten dalen.
 					<br /><br />
 					Daarnaast bieden kunststof en aluminium kozijnen veel ontwerpmogelijkheden. Verschillende kleuren, afwerkingen en stijlen maken ze geschikt voor zowel moderne als klassieke woningen. Hun geluiddempende eigenschappen verhogen het wooncomfort, terwijl de sterke constructie bijdraagt aan inbraakveiligheid.
@@ -86,12 +86,12 @@ export default function Kozijnen() {
 			</section>
 
 			{/* Image + Text 2 */}
-			<section className="bg-secondaryBackground flex flex-col-reverse md:flex-row justify-between items-center py-28 px-4 md:px-36 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col-reverse md:flex-row justify-between items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 			<div className="flex flex-col">
 				<h2 className="text-3xl font-semibold text-black">
 				Vakkundige installatie van uw kozijnen
 				</h2>
-				<p className="mt-3 text-secondary text-xl">
+				<p className="mt-6 md:mt-3 text-secondary text-xl">
 				Na het bestellen van je kozijnen zorgen onze ervaren monteurs voor een professionele en nauwkeurige installatie. We starten met een duidelijke planning en plaatsen elk kozijn perfect op maat, zodat optimale isolatie en functionaliteit gegarandeerd zijn.
 				<br /><br />
 				Ook na de installatie bieden we ondersteuning. Bij vragen of problemen staat ons team klaar om te helpen. Zo geniet je zorgeloos van je nieuwe kozijnen!
@@ -105,7 +105,7 @@ export default function Kozijnen() {
 			</section>
 
 			{/* Image + Text 3 */}
-			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-28 px-4 md:px-36 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 			<img
 				src="/images/kleuren-bacu.webp"
 				alt="Kleurenpallet met populaire RAL-kleuren zoals RAL 9005 zwart en RAL 9016 wit"
@@ -115,7 +115,7 @@ export default function Kozijnen() {
 				<h2 className="text-3xl font-semibold text-black">
 				Je kozijnen op maat
 				</h2>
-				<p className="mt-3 text-secondary text-xl">
+				<p className="mt-6 md:mt-3 text-secondary text-xl">
 				Het juiste kozijn maakt een wereld van verschil voor je woning. Bij BaCu Kozijnen leveren we volledig op maat gemaakte kunststof en aluminium kozijnen die perfect aansluiten bij jouw stijl en wensen. Dankzij de uitgebreide keuzemogelijkheden in kleuren — inclusief het volledige RAL-kleurenpalet — afwerkingen en glasopties geef je jouw woning moeiteloos een moderne of juist klassieke uitstraling.
 				<br /><br />
 				Wil je hoogwaardige kozijnen voor de beste prijs? Kies dan voor maatwerk van BaCu Kozijnen!

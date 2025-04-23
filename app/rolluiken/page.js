@@ -23,7 +23,7 @@ export default function Rolluiken() {
 			<Navbar currentPage={"rolluiken"} />
 			{/* Main section */}
 			<section
-				className="px-6 md:px-36 flex flex-col-reverse md:flex-row items-center justify-between py-16 gap-10"
+				className="flex flex-col-reverse md:flex-row items-center justify-between py-12 md:py-16 px-6 md:px-36 gap-10"
 			>
 				{/* Left Column */}
 				<div className="flex flex-col w-full md:w-1/2">
@@ -68,7 +68,7 @@ export default function Rolluiken() {
 			{/* Steps */}
 			<StepsSection product={"Rolluiken"} />
 			{/* Image + Text 1 */}
-			<section className="bg-secondaryBackground px-6 md:px-36 flex flex-col md:flex-row items-center py-28 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 				<img
 					src="/images/rolluiken-huis.webp"
 					alt="Moderne woning met zwarte rolluiken op een zwart geverfde gevel"
@@ -78,7 +78,7 @@ export default function Rolluiken() {
 					<h2 className="text-3xl font-semibold text-black">
 						De nadelen van ramen zonder rolluiken
 					</h2>
-					<p className="mt-3 text-secondary text-xl">
+					<p className="mt-6 md:mt-3 text-secondary text-xl">
 						Zonder rolluiken kunnen verschillende problemen ontstaan. Fel zonlicht kan een ruimte onaangenaam opwarmen en hinderlijk zijn, vooral op warme dagen. Ramen zonder extra bescherming laten ook meer kou binnen in de winter, wat zorgt voor hogere energiekosten.
 						<br/><br/>
 						Daarnaast kan geluidsoverlast van buitenaf, zoals verkeer of buren, het wooncomfort verminderen. Privacy is een ander punt: zonder rolluiken zijn ramen volledig zichtbaar van buitenaf, wat niet altijd prettig is. Tot slot vormen onbeveiligde ramen een makkelijker doelwit voor inbraak.
@@ -87,7 +87,7 @@ export default function Rolluiken() {
 			</section>
 
 			{/* Image + Text 2 */}
-			<section className="bg-secondaryBackground px-6 md:px-36 flex flex-col md:flex-row-reverse justify-between items-center py-28 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col md:flex-row-reverse justify-between items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 				<img
 					src="/images/rolluik-wit.webp"
 					alt="Witte rolluik op achtertuindeur voor extra privacy en zonwering"
@@ -97,7 +97,7 @@ export default function Rolluiken() {
 					<h2 className="text-3xl font-semibold text-black">
 						Voordelen van de rolluiken
 					</h2>
-					<p className="mt-3 text-secondary text-xl">
+					<p className="mt-6 md:mt-3 text-secondary text-xl">
 						Rolluiken verhogen de privacy doordat ze inkijk van buitenaf blokkeren en zorgen tegelijkertijd voor een extra beveiliging, waardoor ramen minder kwetsbaar zijn voor inbraak. Daarnaast verminderen ze geluidsoverlast van buitenaf, wat bijdraagt aan een rustige en comfortabele woonomgeving.
 						<br/><br/>
 						Ze helpen ook om fel zonlicht en warmte buiten te houden in de zomer, terwijl ze in de winter extra isolatie bieden en energie besparen. Dit zorgt voor een aangenaam binnenklimaat gedurende het hele jaar.
@@ -106,7 +106,7 @@ export default function Rolluiken() {
 			</section>
 
 			{/* Image + Text 3 */}
-			<section className="bg-secondaryBackground px-6 md:px-36 flex flex-col md:flex-row items-center py-28 gap-10 md:gap-0">
+			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 				<img
 					src="/images/rolluiken-baksteen-huis.webp"
 					alt="Zwarte rolluiken op een bakstenen huis voor een stoere en moderne uitstraling"
@@ -116,7 +116,7 @@ export default function Rolluiken() {
 					<h2 className="text-3xl font-semibold text-black">
 						Je rolluiken op maat
 					</h2>
-					<p className="mt-3 text-secondary text-xl">
+					<p className="mt-6 md:mt-3 text-secondary text-xl">
 						BaCu Kozijnen biedt een uitgebreid assortiment rolluiken, waaronder zowel inbouw- als opbouwrolluiken. Met onze gebruiksvriendelijke configurator kun je eenvoudig verschillende opties kiezen, zoals kleuren en afmetingen, zodat je rolluiken volledig naar wens zijn. Je ontvangt direct een prijsopgave, zodat je snel weet waar je aan toe bent.
 						<br/><br/>
 						Heb je hulp nodig bij het samenstellen van je rolluiken? Ons deskundige team staat altijd klaar om je van advies te voorzien.
