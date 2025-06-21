@@ -13,10 +13,13 @@ function Footer() {
 				/>
 				</a>
 				<span className="text-sm text-secondary mt-2">
-				BaCu Kozijnen levert stijlvolle, duurzame oplossingen op maat voor kozijnen, rolluiken, deuren en zonwering.
+					BaCu Kozijnen levert stijlvolle, duurzame oplossingen op maat voor kozijnen, rolluiken, deuren en zonwering.
 				</span>
 				<span className="text-sm text-secondary/70 mt-6">
-				Copyright © 2025 – Alle rechten voorbehouden
+					Copyright © 2025 – Alle rechten voorbehouden
+				</span>
+				<span className="text-sm text-secondary/70 mt-2">
+					Website gemaakt door <a href="https://www.yakoweb.com/" className="underline">YakoWeb</a>
 				</span>
 			</div>
 
