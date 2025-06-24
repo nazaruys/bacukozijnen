@@ -56,8 +56,8 @@ export default function Contact() {
 						</clipPath>
 						</defs>
 					</svg>
-					<span className="text-2xl">Whatsapp</span>
-					<span className="font-medium underline">Stuur ons een bericht via Whatsapp</span>
+					<span className="text-2xl">WhatsApp</span>
+					<span className="font-medium underline">Stuur ons een bericht via WhatsApp</span>
 				</a>
 				{/* Second */}
 				<a

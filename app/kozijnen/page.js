@@ -31,7 +31,7 @@ export default function Kozijnen() {
 
 					{/* Subtitle */}
 					<p className="mt-7 text-secondary text-lg">
-					Kunststof en aluminium kozijnen van BaCu Kozijnen bieden de perfecte combinatie van stijl, isolatie en duurzaamheid. Ze zijn onderhoudsarm, weerbestendig en gaan jarenlang mee. Of je nu renoveert of nieuw bouwt, onze op maat gemaakte kozijnen passen bij elke woningstijl en dragen bij aan een energiezuinig huis.
+					Kunststof en aluminium kozijnen van BaCu Kozijnen bieden de perfecte combinatie van stijl, isolatie en duurzaamheid. Ze zijn onderhoudsarm, weerbestendig en gaan jarenlang mee. Of je nu renoveert of nieuwbouwt, onze op maat gemaakte kozijnen passen bij elke woningstijl en dragen bij aan een energiezuinig huis.
 					<br /><br />
 					Met onze configurator ontwerp je eenvoudig kozijnen die aansluiten bij jouw wensen. Geniet van optimaal comfort, lagere energiekosten en een moderne uitstraling met de kunststof en aluminium kozijnen van BaCu Kozijnen.
 					</p>
@@ -78,7 +78,7 @@ export default function Kozijnen() {
 					De unieke voordelen van kozijnen
 					</h2>
 					<p className="mt-6 md:mt-3 text-secondary text-xl">
-					Kunststof en aluminium kozijnen onderscheiden zich door hun lange levensduur en minimale onderhoud. Ze zijn bestand tegen alle weersomstandigheden zonder te verkleuren of te vervormen. Dankzij hun hoge isolatiewaarde zorgen ze voor een energiezuinig en comfortabel binnenklimaat, waardoor stookkosten dalen.
+					Kunststof en aluminium kozijnen onderscheiden zich door hun lange levensduur en minimaal onderhoud. Ze zijn bestand tegen alle weersomstandigheden zonder te verkleuren of te vervormen. Dankzij hun hoge isolatiewaarde zorgen ze voor een energiezuinig en comfortabel binnenklimaat, waardoor stookkosten dalen.
 					<br /><br />
 					Daarnaast bieden kunststof en aluminium kozijnen veel ontwerpmogelijkheden. Verschillende kleuren, afwerkingen en stijlen maken ze geschikt voor zowel moderne als klassieke woningen. Hun geluiddempende eigenschappen verhogen het wooncomfort, terwijl de sterke constructie bijdraagt aan inbraakveiligheid.
 					</p>
@@ -108,7 +108,7 @@ export default function Kozijnen() {
 			<section className="bg-secondaryBackground flex flex-col md:flex-row items-center py-12 md:py-28 px-6 md:px-36 gap-10 md:gap-0">
 			<img
 				src="/images/kleuren-bacu.webp"
-				alt="Kleurenpallet met populaire RAL-kleuren zoals RAL 9005 zwart en RAL 9016 wit"
+				alt="Kleurenpalet met populaire RAL-kleuren zoals RAL 9005 zwart en RAL 9016 wit"
 				className="w-full md:w-[500px] h-auto md:mr-24 rounded-xl"
 			/>
 			<div className="flex flex-col">
