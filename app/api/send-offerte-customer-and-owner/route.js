@@ -5,11 +5,11 @@ import sendEmail from "@/app/utils/sendEmail";
 export async function POST(req) {
 	const { voornaam, achternaam, adres, plaats, telefoonnummer, email, vragen } = await req.json();
 
-	const owner_email = process.env.EMAIL_USER;
-	const owner_password = process.env.EMAIL_PASS;
-	const owner_host = process.env.EMAIL_HOST;
-	const owner_port = process.env.EMAIL_PORT;
-	const owner_secure = process.env.EMAIL_SECURE === 'true';
+	const owner_email = null;
+	const owner_password = null;
+	const owner_host = null;
+	const owner_port = null;
+	const owner_secure = null;
 
 	// Send email to the owner
 	const ownerRespose = await sendEmail({

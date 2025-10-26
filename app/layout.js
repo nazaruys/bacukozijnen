@@ -1,5 +1,4 @@
 import { Outfit } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 
 // Google Font: Outfit
@@ -10,17 +9,19 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  description: "BaCu Kozijnen biedt maatwerk kozijnen, rolluiken en buitendeuren van topkwaliteit. Duurzaam, stijlvol en uitstekend geïsoleerd, met betrouwbare service en eerlijke communicatie.",
+  description:
+    "BaCu Kozijnen biedt maatwerk kozijnen, rolluiken en buitendeuren van topkwaliteit. Duurzaam, stijlvol en uitstekend geïsoleerd, met betrouwbare service en eerlijke communicatie.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${outfit.variable} antialiased`}
-      >
+      <head>
+        {/* Prevent indexing/crawling */}
+        <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+      </head>
+      <body className={`${outfit.variable} antialiased`}>
         {children}
-        <Analytics />
       </body>
     </html>
   );
