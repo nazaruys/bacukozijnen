@@ -31,10 +31,10 @@ function Footer() {
 				<span className="text-sm font-semibold tracking-widest">CONTACT</span>
 				<ul className="flex flex-col gap-3 text-sm mt-4 text-secondary">
 					<li>
-					<a href="mailto:info@bacukozijnen.nl" className="underline" target="_blank">info@bacukozijnen.nl</a>
+					<a href="mailto:info@voorbeeld.nl" className="underline" target="_blank">info@voorbeeld.nl</a>
 					</li>
 					<li>
-					<a href="tel:0362340070" className="underline" target="_blank">036 - 2340070</a>
+					<a href="tel:0362340070" className="underline" target="_blank">012 - 3456789</a>
 					</li>
 					<li>
 					<a href="https://api.whatsapp.com/send/?phone=31614438309" className="underline" target="_blank">Whatsapp</a>
@@ -42,7 +42,7 @@ function Footer() {
 					<li>
 					<a href="https://www.instagram.com/bacukozijnen/" className="underline" target="_blank">Instagram</a>
 					</li>
-					<li>KvK 95459855</li>
+					<li>KvK 12345678</li>
 				</ul>
 				</div>
 

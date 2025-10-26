@@ -77,7 +77,7 @@ function OfferteForm() {
 					// Debug
 					console.log(await response.json())
 					// Show error message
-					toast.error('Er is een fout opgetreden. Probeer het opnieuw. Lukt het niet? Neem dan contact met ons op via info@bacukozijnen.nl.', {
+					toast.error('Er is een fout opgetreden. Probeer het opnieuw. Lukt het niet? Neem dan contact met ons op via info@voorbeeld.nl.', {
 						position: "top-right",
 						autoClose: 10000,
 						hideProgressBar: false,
